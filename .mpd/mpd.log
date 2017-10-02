@@ -1,0 +1,1506 @@
+Sep 18 05:25 : exception: Failed to open /home/alex/.mpd/mpdstate: No such file or directory
+Sep 18 05:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 18 06:02 : client: [0] opened from 127.0.0.1:41118
+Sep 18 06:02 : client: [0] closed
+Sep 18 06:02 : client: [1] opened from 127.0.0.1:41120
+Sep 18 06:03 : client: [1] closed
+Sep 18 06:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 18 07:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 18 11:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 18 12:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 18 14:27 : client: [0] opened from 127.0.0.1:55806
+Sep 18 20:52 : client: [0] closed
+Sep 18 21:15 : client: [1] opened from 127.0.0.1:57496
+Sep 18 21:16 : client: [1] closed
+Sep 18 21:17 : client: [2] opened from 127.0.0.1:58172
+Sep 18 21:20 : client: [2] closed
+Sep 18 21:21 : client: [3] opened from 127.0.0.1:58306
+Sep 18 21:42 : client: [4] opened from 127.0.0.1:59506
+Sep 18 21:43 : exception: Failed to decode /home/alex/Musique/Aphex Twin/Syro/01-aphex_twin-minipops_67_(source_field_mix)_(120.2)-noir.mp3
+Sep 18 21:43 : exception: nested: Failed to open /home/alex/Musique/Aphex Twin/Syro/01-aphex_twin-minipops_67_(source_field_mix)_(120.2)-noir.mp3: No such file or directory
+Sep 18 21:43 : player: played "Aphex Twin/Syro/01-aphex_twin-minipops_67_(source_field_mix)_(120.2)-noir.mp3"
+Sep 18 21:43 : exception: Failed to decode /home/alex/Musique/Aphex Twin/Syro/01-aphex_twin-minipops_67_(source_field_mix)_(120.2)-noir.mp3
+Sep 18 21:43 : exception: nested: Failed to open /home/alex/Musique/Aphex Twin/Syro/01-aphex_twin-minipops_67_(source_field_mix)_(120.2)-noir.mp3: No such file or directory
+Sep 18 21:43 : player: played "Aphex Twin/Syro/01-aphex_twin-minipops_67_(source_field_mix)_(120.2)-noir.mp3"
+Sep 18 21:43 : client: [4] closed
+Sep 18 21:48 : client: [3] closed
+Sep 18 22:51 : client: [5] opened from 127.0.0.1:33092
+Sep 18 22:52 : client: [5] closed
+Sep 18 22:52 : client: [6] opened from 127.0.0.1:33094
+Sep 18 22:52 : client: [6] closed
+Sep 18 22:52 : client: [7] opened from 127.0.0.1:33096
+Sep 18 22:53 : client: [7] closed
+Sep 18 22:53 : client: [8] opened from 127.0.0.1:33102
+Sep 18 22:53 : client: [8] closed
+Sep 18 22:53 : client: [9] opened from 127.0.0.1:33104
+Sep 18 22:53 : client: [9] closed
+Sep 18 22:53 : client: [10] opened from 127.0.0.1:33106
+Sep 18 22:54 : client: [11] opened from 127.0.0.1:33110
+Sep 18 22:56 : client: [10] closed
+Sep 18 22:56 : client: [12] opened from 127.0.0.1:33112
+Sep 18 22:59 : client: [12] closed
+Sep 18 23:00 : client: [13] opened from 127.0.0.1:33232
+Sep 18 23:01 : client: [13] closed
+Sep 18 23:01 : client: [14] opened from 127.0.0.1:33234
+Sep 18 23:01 : client: [11] closed
+Sep 18 23:05 : client: [14] closed
+Sep 18 23:05 : client: [15] opened from 127.0.0.1:33282
+Sep 18 23:06 : client: [15] closed
+Sep 18 23:06 : client: [16] opened from 127.0.0.1:33332
+Sep 18 23:06 : client: [16] closed
+Sep 18 23:06 : client: [17] opened from 127.0.0.1:33334
+Sep 18 23:12 : client: [17] closed
+Sep 18 23:12 : client: [18] opened from 127.0.0.1:33568
+Sep 18 23:13 : client: [18] closed
+Sep 18 23:13 : client: [19] opened from 127.0.0.1:33606
+Sep 18 23:14 : client: [19] closed
+Sep 18 23:14 : client: [20] opened from 127.0.0.1:33608
+Sep 18 23:17 : client: [20] closed
+Sep 18 23:17 : client: [21] opened from 127.0.0.1:33616
+Sep 18 23:35 : avahi: Client Disconnected, will reconnect shortly
+Sep 18 23:35 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 18 23:35 : client: [21] closed
+Sep 19 08:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 19 08:32 : client: [0] opened from 127.0.0.1:40986
+Sep 19 09:14 : client: [0] closed
+Sep 19 09:15 : client: [1] opened from 127.0.0.1:41520
+Sep 19 09:17 : avahi: Client Disconnected, will reconnect shortly
+Sep 19 09:17 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 19 09:17 : client: [1] closed
+Sep 19 09:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 19 09:34 : client: [0] opened from 127.0.0.1:40586
+Sep 19 09:36 : client: [1] opened from 127.0.0.1:40874
+Sep 19 09:36 : client: [1] closed
+Sep 19 09:36 : exception: Failed to decode /home/alex/Musique/Aphex Twin/Syro/01-aphex_twin-minipops_67_(source_field_mix)_(120.2)-noir.mp3
+Sep 19 09:36 : exception: nested: Failed to open /home/alex/Musique/Aphex Twin/Syro/01-aphex_twin-minipops_67_(source_field_mix)_(120.2)-noir.mp3: No such file or directory
+Sep 19 09:36 : player: played "Aphex Twin/Syro/01-aphex_twin-minipops_67_(source_field_mix)_(120.2)-noir.mp3"
+Sep 19 09:36 : client: [2] opened from 127.0.0.1:40876
+Sep 19 09:36 : exception: Failed to decode /home/alex/Musique/Aphex Twin/Syro/01-aphex_twin-minipops_67_(source_field_mix)_(120.2)-noir.mp3
+Sep 19 09:36 : exception: nested: Failed to open /home/alex/Musique/Aphex Twin/Syro/01-aphex_twin-minipops_67_(source_field_mix)_(120.2)-noir.mp3: No such file or directory
+Sep 19 09:36 : client: [2] closed
+Sep 19 09:36 : player: played "Aphex Twin/Syro/01-aphex_twin-minipops_67_(source_field_mix)_(120.2)-noir.mp3"
+Sep 19 09:46 : client: [0] closed
+Sep 19 09:46 : client: [3] opened from 127.0.0.1:41572
+Sep 19 09:50 : client: [3] closed
+Sep 19 09:50 : client: [4] opened from 127.0.0.1:41674
+Sep 19 09:51 : client: [4] closed
+Sep 19 09:51 : client: [5] opened from 127.0.0.1:41680
+Sep 19 09:59 : client: [6] opened from 127.0.0.1:41748
+Sep 19 10:38 : client: [5] closed
+Sep 19 10:45 : client: [7] opened from 127.0.0.1:42584
+Sep 19 10:45 : client: [7] closed
+Sep 19 10:45 : client: [8] opened from 127.0.0.1:42586
+Sep 19 10:46 : client: [8] closed
+Sep 19 10:46 : client: [9] opened from 127.0.0.1:42634
+Sep 19 10:46 : client: [9] closed
+Sep 19 10:46 : client: [10] opened from 127.0.0.1:42636
+Sep 19 10:50 : client: [10] closed
+Sep 19 10:50 : client: [11] opened from 127.0.0.1:42646
+Sep 19 11:24 : client: [11] closed
+Sep 19 11:24 : client: [12] opened from 127.0.0.1:42658
+Sep 19 11:27 : client: [12] closed
+Sep 19 11:27 : client: [13] opened from 127.0.0.1:42884
+Sep 19 11:32 : client: [13] closed
+Sep 19 11:32 : client: [14] opened from 127.0.0.1:43056
+Sep 19 11:33 : client: [14] closed
+Sep 19 11:33 : client: [15] opened from 127.0.0.1:43058
+Sep 19 11:36 : client: [15] closed
+Sep 19 11:36 : client: [16] opened from 127.0.0.1:43060
+Sep 19 11:39 : client: [16] closed
+Sep 19 11:39 : client: [17] opened from 127.0.0.1:43080
+Sep 19 11:41 : client: [17] closed
+Sep 19 11:41 : client: [18] opened from 127.0.0.1:43102
+Sep 19 14:16 : client: [18] closed
+Sep 19 14:16 : client: [19] opened from 127.0.0.1:44146
+Sep 19 14:17 : client: [19] closed
+Sep 19 14:17 : client: [20] opened from 127.0.0.1:44196
+Sep 19 14:17 : client: [20] closed
+Sep 19 14:17 : client: [21] opened from 127.0.0.1:44208
+Sep 19 14:17 : client: [21] closed
+Sep 19 14:17 : client: [22] opened from 127.0.0.1:44214
+Sep 19 14:18 : client: [22] closed
+Sep 19 14:18 : client: [23] opened from 127.0.0.1:44252
+Sep 19 14:18 : client: [23] closed
+Sep 19 14:18 : client: [24] opened from 127.0.0.1:44262
+Sep 19 14:18 : client: [24] closed
+Sep 19 14:18 : client: [25] opened from 127.0.0.1:44270
+Sep 19 14:19 : client: [25] closed
+Sep 19 14:19 : client: [26] opened from 127.0.0.1:44290
+Sep 19 14:35 : client: [26] closed
+Sep 19 14:35 : client: [27] opened from 127.0.0.1:45202
+Sep 19 14:36 : client: [27] closed
+Sep 19 14:36 : client: [28] opened from 127.0.0.1:45204
+Sep 19 14:38 : client: [28] closed
+Sep 19 14:38 : client: [29] opened from 127.0.0.1:45224
+Sep 19 14:41 : client: [29] closed
+Sep 19 14:41 : client: [30] opened from 127.0.0.1:45228
+Sep 19 14:41 : client: [30] closed
+Sep 19 14:41 : client: [31] opened from 127.0.0.1:45230
+Sep 19 14:41 : client: [31] closed
+Sep 19 14:41 : client: [32] opened from 127.0.0.1:45232
+Sep 19 15:06 : client: [32] closed
+Sep 19 15:06 : client: [33] opened from 127.0.0.1:45278
+Sep 19 15:06 : client: [33] closed
+Sep 19 15:06 : client: [34] opened from 127.0.0.1:45280
+Sep 19 15:07 : client: [34] closed
+Sep 19 15:07 : client: [35] opened from 127.0.0.1:45322
+Sep 19 15:07 : client: [35] closed
+Sep 19 15:07 : client: [36] opened from 127.0.0.1:45328
+Sep 19 15:32 : client: [36] closed
+Sep 19 15:32 : client: [37] opened from 127.0.0.1:45414
+Sep 19 15:32 : client: [37] closed
+Sep 19 15:32 : client: [38] opened from 127.0.0.1:45416
+Sep 19 16:10 : client: [38] closed
+Sep 19 16:10 : client: [39] opened from 127.0.0.1:45474
+Sep 19 16:10 : client: [39] closed
+Sep 19 16:10 : client: [40] opened from 127.0.0.1:45476
+Sep 19 16:49 : client: [40] closed
+Sep 19 16:49 : client: [41] opened from 127.0.0.1:45508
+Sep 19 16:49 : client: [41] closed
+Sep 19 16:49 : client: [42] opened from 127.0.0.1:45510
+Sep 19 16:49 : client: [42] closed
+Sep 19 16:49 : client: [43] opened from 127.0.0.1:45512
+Sep 19 16:50 : client: [43] closed
+Sep 19 16:50 : client: [44] opened from 127.0.0.1:45542
+Sep 19 16:51 : client: [44] closed
+Sep 19 16:51 : client: [45] opened from 127.0.0.1:45544
+Sep 19 16:52 : client: [45] closed
+Sep 19 16:52 : client: [46] opened from 127.0.0.1:45556
+Sep 19 16:53 : client: [46] closed
+Sep 19 16:53 : client: [47] opened from 127.0.0.1:45558
+Sep 19 19:19 : client: [47] closed
+Sep 19 19:29 : client: [48] opened from 127.0.0.1:45880
+Sep 19 19:29 : client: [48] closed
+Sep 19 19:29 : client: [49] opened from 127.0.0.1:45882
+Sep 19 19:30 : client: [49] closed
+Sep 19 19:30 : client: [50] opened from 127.0.0.1:45884
+Sep 19 19:30 : client: [50] closed
+Sep 19 19:30 : client: [51] opened from 127.0.0.1:45886
+Sep 19 19:30 : client: [51] closed
+Sep 19 19:30 : client: [52] opened from 127.0.0.1:45888
+Sep 19 19:30 : client: [52] closed
+Sep 19 19:30 : client: [53] opened from 127.0.0.1:45890
+Sep 19 19:33 : client: [53] closed
+Sep 19 19:33 : client: [54] opened from 127.0.0.1:45898
+Sep 19 19:34 : client: [54] closed
+Sep 19 19:34 : client: [55] opened from 127.0.0.1:45900
+Sep 19 19:34 : client: [55] closed
+Sep 19 19:34 : client: [56] opened from 127.0.0.1:45902
+Sep 19 20:06 : client: [56] closed
+Sep 19 20:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 19 20:08 : client: [0] opened from 127.0.0.1:47432
+Sep 19 20:08 : client: [0] closed
+Sep 19 20:08 : client: [1] opened from 127.0.0.1:47434
+Sep 19 20:13 : client: [2] opened from 127.0.0.1:47532
+Sep 19 20:21 : client: [1] closed
+Sep 19 20:21 : client: [3] opened from 127.0.0.1:47768
+Sep 19 21:02 : client: [3] closed
+Sep 19 21:02 : client: [4] opened from 127.0.0.1:47896
+Sep 19 21:02 : client: [4] closed
+Sep 19 21:02 : client: [2] closed
+Sep 19 21:02 : client: [5] opened from 127.0.0.1:47900
+Sep 19 21:02 : client: [5] closed
+Sep 19 21:02 : client: [6] opened from 127.0.0.1:47902
+Sep 19 21:04 : client: [6] closed
+Sep 19 21:04 : client: [7] opened from 127.0.0.1:47904
+Sep 19 21:05 : client: [7] closed
+Sep 19 21:05 : client: [8] opened from 127.0.0.1:47906
+Sep 20 00:06 : avahi: Client Disconnected, will reconnect shortly
+Sep 20 00:06 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 20 00:06 : client: [8] closed
+Sep 20 08:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 08:40 : client: [0] opened from 127.0.0.1:43788
+Sep 20 08:41 : client: [0] closed
+Sep 20 08:41 : client: [1] opened from 127.0.0.1:43790
+Sep 20 09:28 : client: [1] closed
+Sep 20 09:28 : client: [2] opened from 127.0.0.1:44302
+Sep 20 09:29 : client: [2] closed
+Sep 20 09:29 : client: [3] opened from 127.0.0.1:44306
+Sep 20 09:53 : client: [3] closed
+Sep 20 09:53 : client: [4] opened from 127.0.0.1:44312
+Sep 20 19:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 19:16 : client: [0] opened from 127.0.0.1:35512
+Sep 20 19:22 : client: [0] closed
+Sep 20 19:22 : client: [1] opened from 127.0.0.1:35558
+Sep 20 19:22 : client: [1] closed
+Sep 20 19:22 : client: [2] opened from 127.0.0.1:35560
+Sep 20 19:32 : client: [3] opened from 127.0.0.1:35634
+Sep 20 19:32 : client: [3] closed
+Sep 20 19:34 : client: [4] opened from 127.0.0.1:35638
+Sep 20 19:34 : client: [4] closed
+Sep 20 20:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 20:01 : client: [0] opened from 127.0.0.1:42366
+Sep 20 20:02 : client: [0] closed
+Sep 20 20:02 : client: [1] opened from 127.0.0.1:42368
+Sep 20 20:02 : client: [2] opened from 127.0.0.1:42372
+Sep 20 20:02 : exception: Failed to decode /home/alex/Musique/Bob Marley/Greatest Hits/1 - Iron Lion Zion.mp3
+Sep 20 20:02 : exception: nested: Failed to open /home/alex/Musique/Bob Marley/Greatest Hits/1 - Iron Lion Zion.mp3: No such file or directory
+Sep 20 20:02 : player: played "Bob Marley/Greatest Hits/1 - Iron Lion Zion.mp3"
+Sep 20 20:02 : client: [2] closed
+Sep 20 20:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 20:03 : update: added Breaking Benjamin/We Are Not Alone/2 - Simple Design.flac
+Sep 20 20:03 : update: added Breaking Benjamin/We Are Not Alone/11 - Rain.flac
+Sep 20 20:03 : update: added Breaking Benjamin/We Are Not Alone/7 - Sooner Or Later.flac
+Sep 20 20:03 : update: added Breaking Benjamin/We Are Not Alone/8 - Breakdown.flac
+Sep 20 20:03 : update: added Breaking Benjamin/We Are Not Alone/1 - So Cold.flac
+Sep 20 20:03 : update: added Breaking Benjamin/We Are Not Alone/5 - Break My Fall.flac
+Sep 20 20:03 : update: added Breaking Benjamin/We Are Not Alone/10 - Believe.flac
+Sep 20 20:03 : update: added Breaking Benjamin/We Are Not Alone/6 - Forget It.flac
+Sep 20 20:03 : update: added Breaking Benjamin/We Are Not Alone/4 - Firefly.flac
+Sep 20 20:03 : update: added Breaking Benjamin/We Are Not Alone/9 - Away.flac
+Sep 20 20:03 : update: added Breaking Benjamin/We Are Not Alone/3 - Follow.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Dear Agony/5 - Hopeless.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Dear Agony/7 - Anthem Of The Angels.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Dear Agony/8 - Lights Out.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Dear Agony/2 - I Will Not Bow.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Dear Agony/1 - Fade Away.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Dear Agony/10 - Into The Nothing.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Dear Agony/9 - Dear Agony.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Dear Agony/3 - Crawl.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Dear Agony/6 - What Lies Beneath.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Dear Agony/4 - Give Me A Sign.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Phobia/10 - Unknown Soldier.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Phobia/5 - Evil Angel.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Phobia/7 - Dance With The Devil.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Phobia/8 - Topless.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Phobia/1 - Intro.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Phobia/6 - Until The End.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Phobia/9 - Here We Are.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Phobia/13 - Outro.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Phobia/14 - The Diary Of Jane (Acoustic).flac
+Sep 20 20:03 : update: added Breaking Benjamin/Phobia/3 - Breath.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Phobia/4 - You.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Phobia/12 - You Fight Me.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Phobia/2 - The Diary Of Jane.flac
+Sep 20 20:03 : update: added Breaking Benjamin/Phobia/11 - Had Enough.flac
+Sep 20 20:03 : update: added Paramore/All We Know Is Falling/05 - Here We Go Again.mp3
+Sep 20 20:03 : update: added Paramore/All We Know Is Falling/03 - Emergency.mp3
+Sep 20 20:03 : update: added Paramore/All We Know Is Falling/09 - Franklin.mp3
+Sep 20 20:03 : update: added Paramore/All We Know Is Falling/04 - Brighter.mp3
+Sep 20 20:03 : update: added Paramore/All We Know Is Falling/02 - Pressure.mp3
+Sep 20 20:03 : update: added Paramore/All We Know Is Falling/07 - Whoa.mp3
+Sep 20 20:03 : update: added Paramore/All We Know Is Falling/06 - Let This Go.mp3
+Sep 20 20:03 : update: added Paramore/All We Know Is Falling/10 - My Heart.mp3
+Sep 20 20:03 : update: added Paramore/All We Know Is Falling/01 - All We Know.mp3
+Sep 20 20:03 : update: added Paramore/All We Know Is Falling/08 - Conspiracy.mp3
+Sep 20 20:03 : update: added Paramore/Riot !/07 - Miracle.mp3
+Sep 20 20:03 : update: added Paramore/Riot !/03 - Hallelujah.mp3
+Sep 20 20:03 : update: added Paramore/Riot !/05 - When It Rains.mp3
+Sep 20 20:03 : update: added Paramore/Riot !/09 - We Are Broken.mp3
+Sep 20 20:03 : update: added Paramore/Riot !/11 - Born For This.mp3
+Sep 20 20:03 : update: added Paramore/Riot !/06 - Let The Flames Begin.mp3
+Sep 20 20:03 : update: added Paramore/Riot !/01 - For A Pessimist, I'm Pretty Optimistic.mp3
+Sep 20 20:03 : update: added Paramore/Riot !/02 - That's What You Get.mp3
+Sep 20 20:03 : update: added Paramore/Riot !/10 - Fences.mp3
+Sep 20 20:03 : update: added Paramore/Riot !/08 - Crushcrushcrush.mp3
+Sep 20 20:03 : update: added Paramore/Riot !/04 - Misery Business.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/12 - Tear.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/09 - Midnight.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/03 - This Is The Place.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/01 - By The Way.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/05 - Don't Forget Me.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/16 - Venice Queen.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/15 - Warm Tape.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/06 - The Zephyr Song.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/02 - Universally Speaking.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/07 - Can't Stop.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/10 - Throw Away Your Television.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/04 - Dosed.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/11 - Cabron.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/14 - Minor Thing.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/08 - I Could Die For You.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/By The Way/13 - On Mercury.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/05 - Get On Top.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/11 - This Velvet Glove.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/10 - I Like Dirt.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/17 - Over Funk (Bonus Track).mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/15 - Road Trippin'.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/08 - Porcelain.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/07 - Easily.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/12 - Savior.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/16 - Fat Dance (Bonus Track).mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/02 - Parallel Universe.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/01 - Around The World.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/03 - Scar Tissue.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/14 - Right On Time.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/06 - Californication.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/09 - Emit Remmus.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/18 - Quixoticelixer (Bonus Track).mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/13 - Purple Stain.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/04 - Otherside.mp3
+Sep 20 20:03 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Californication/19 - Californication (Official Music Video).mp4
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/19 - Crosstown Traffic (Live).mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/18 - Castles Made Of Sand (The Jimi Hendrix Experience Cover) (Live).mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/09 - Fire.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/14 - Song That Made Us What We Are Today (Demo).mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/01 - Good Time Boys.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/10 - Pretty Little Ditty.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/03 - Subway To Venus.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/05 - Nobody Weird Like Me.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/11 - Punk Rock Classic.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/17 - Salute To Kareem (Demo).mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/15 - Knock Me Down (Original Long Version).mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/07 - Taste The Pain.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/02 - Higher Ground.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/06 - Knock Me Down.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/12 - Sexy Mexican Maid.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/04 - Magic Johnson.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/08 - Stone Cold Bush.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/16 - Sexy Mexican Maid (Original Long Version).mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Mother Milk/13 - Johnny, Kick A Hole In The Sky.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/04 - My Friends.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/12 - Shallow Be Thy Game.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/02 - Aeroplane.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/13 - Transcending.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/07 - One Big Mob.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/09 - Tearjerker.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/15 - Stretch You Out (Bonus Track).mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/01 - Warped.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/11 - Falling Into Grace.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/05 - Coffee Shop.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/06 - Pea.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/16 - Bob (Bonus Track).mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/10 - One Hot Minute.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/14 - Let's Make Evil (Bonus Track).mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/08 - Walkabout.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/One Hot Minute/03 - Deep Kick.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/01 - Desecration Smile.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/08 - Torture Me.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/06 - She's Only 18.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/03 - Charlie.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/12 - C'mon Girl.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/04 - Stadium Arcadium.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/03 - Hard To Concentrate.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/13 - Turn It Again.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/05 - Hump De Bump.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/07 - Slow Cheetah.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/10 - Especially In Michigan.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/08 - Make You Feel Better.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/09 - Strip My Mind.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/09 - Animal Bar.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/14 - Hey.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/10 - So Much I.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/01 - Dani California.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/06 - Readymade.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/11 - Warlocks.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/13 - Wet Sand.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/14 - Death Of A Martian.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/11 - Storm In A Teacup.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/02 - Tell Me Baby.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/12 - We Believe.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/05 - She Looks To Me.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/07 - If.mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/02 - Snow (Hey Oh).mp3
+Sep 20 20:03 : update: added Red Hot Chili Peppers/Stadium Arcadium/04 - 21st Century.mp3
+Sep 20 20:03 : update: added P.O.D./SoCal Sessions [Acoustic]/12 - Set Your Eyes To Zion.mp3
+Sep 20 20:03 : update: added P.O.D./SoCal Sessions [Acoustic]/01 - Panic & Run.mp3
+Sep 20 20:03 : update: added P.O.D./SoCal Sessions [Acoustic]/02 - Will You.mp3
+Sep 20 20:03 : update: added P.O.D./SoCal Sessions [Acoustic]/04 - No Ordinary Love Song.mp3
+Sep 20 20:03 : update: added P.O.D./SoCal Sessions [Acoustic]/08 - It Can't Rain Everyday.mp3
+Sep 20 20:03 : update: added P.O.D./SoCal Sessions [Acoustic]/09 - Lost In Forever.mp3
+Sep 20 20:03 : update: added P.O.D./SoCal Sessions [Acoustic]/03 - Youth Of The Nation.mp3
+Sep 20 20:03 : update: added P.O.D./SoCal Sessions [Acoustic]/05 - Strength Of My Life.mp3
+Sep 20 20:03 : update: added P.O.D./SoCal Sessions [Acoustic]/11 - Beautiful.mp3
+Sep 20 20:03 : update: added P.O.D./SoCal Sessions [Acoustic]/10 - I'll Be Ready.mp3
+Sep 20 20:03 : update: added P.O.D./SoCal Sessions [Acoustic]/07 - Higher.mp3
+Sep 20 20:03 : update: added P.O.D./SoCal Sessions [Acoustic]/06 - Alive.mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/16 - Whatever It Takes (Bonus Track).mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/08 - The Messenjah.mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/05 - Celestial.mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/02 - Alive.mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/15 - Portrait.mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/06 - Satellite.mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/18 - Youth Of The Nation (Conjure One Remix).mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/01 - Set It Off.mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/09 - Guitarras De Amor.mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/17 - Alive (Semi-Acoustic).mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/11 - Ghetto.mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/14 - Thinking About Forever.mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/07 - Ridiculous (Feat. Eek-a-Mouse).mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/04 - Youth Of The Nation.mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/03 - Boom.mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/12 - Masterpiece Conspiracy.mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/19 - Boom (The Crystal Method Remix).mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/10 - Anything Right (Feat. Christian Lindskog).mp3
+Sep 20 20:03 : update: added P.O.D./Satellite/13 - Without Jah, Nothin' (Feat. H.R.).mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/11 - Execute The Sounds.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/13 - Truly Amazing.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/04 - Roots In Stereo.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/09 - Lights Out.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/02 - Boom.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/10 - Goodbye For Now.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/15 - Set Your Eyes To Zion.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/14 - Satellite.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/07 - Sleeping Awake.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/01 - Southtown.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/12 - Will You.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/06 - Youth Of The Nation.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/16 - Here We Go.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/03 - Going In Blind.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/05 - Alive.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/17 - If It Wasn't For You.mp3
+Sep 20 20:03 : update: added P.O.D./Greatest Hits - The Atlantic Years/08 - Rock The Party (Off The Hook).mp3
+Sep 20 20:03 : update: added Steve Vai/Alien Love Secrets/07 - Tender Surrender.mp3
+Sep 20 20:03 : update: added Steve Vai/Alien Love Secrets/04 - The Boy From Seattle.mp3
+Sep 20 20:03 : update: added Steve Vai/Alien Love Secrets/02 - Juice.mp3
+Sep 20 20:03 : update: added Steve Vai/Alien Love Secrets/01 - Bad Horsie.mp3
+Sep 20 20:03 : update: added Steve Vai/Alien Love Secrets/03 - Die To Live.mp3
+Sep 20 20:03 : update: added Steve Vai/Alien Love Secrets/06 - Kill The Guy With The Ball - The God Eaters.mp3
+Sep 20 20:03 : update: added Steve Vai/Alien Love Secrets/05 - Ya-Yo Gakk.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/14 - Love Secrets.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/11 - Greasy Kid's Stuff.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/02 - Erotic Nightmares.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/10 - Blue Powder.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/18 - So Below.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/03 - The Animal.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/09 - I Would Love To.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/13 - Sisters.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/17 - As Above.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/06 - Ballerina 12-24.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/05 - The Riddle.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/01 - Liberty.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/07 - For The Love Of God.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/15 - Lovely Elixir.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/08 - The Audience Is Listening.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/16 - And We Are One (Solo #2).mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/12 - Alien Water Kiss.mp3
+Sep 20 20:03 : update: added Steve Vai/Paradise and Warfare/04 - Answers.mp3
+Sep 20 20:03 : update: added Steve Vai/Modern Primitive/10 - No Pockets.mp3
+Sep 20 20:03 : update: added Steve Vai/Modern Primitive/09 - Lights Are On.mp3
+Sep 20 20:03 : update: added Steve Vai/Modern Primitive/02 - Dark Matter.mp3
+Sep 20 20:03 : update: added Steve Vai/Modern Primitive/08 - Never Forever.mp3
+Sep 20 20:03 : update: added Steve Vai/Modern Primitive/05 - Upanishads.mp3
+Sep 20 20:03 : update: added Steve Vai/Modern Primitive/06 - Fast Note People.mp3
+Sep 20 20:03 : update: added Steve Vai/Modern Primitive/07 - And We Are One.mp3
+Sep 20 20:03 : update: added Steve Vai/Modern Primitive/11 - Pink And Blows Over, Part 1.mp3
+Sep 20 20:03 : update: added Steve Vai/Modern Primitive/01 - Bop!.mp3
+Sep 20 20:03 : update: added Steve Vai/Modern Primitive/13 - Pink And Blows Over, Part 3 (Jazzbo Paddle-Foot).mp3
+Sep 20 20:03 : update: added Steve Vai/Modern Primitive/12 - Pink And Blows Over, Part 2 (Mars Attack).mp3
+Sep 20 20:03 : update: added Steve Vai/Modern Primitive/04 - The Lost Chord.mp3
+Sep 20 20:03 : update: added Steve Vai/Modern Primitive/03 - Mighty Messengers.mp3
+Sep 20 20:03 : update: added Steve Vai/Sex & Religion/05 - Sex & Religion.mp3
+Sep 20 20:03 : update: added Steve Vai/Sex & Religion/11 - The Road To Mt. Calvary.mp3
+Sep 20 20:03 : update: added Steve Vai/Sex & Religion/01 - An Earth Dweller's Return.mp3
+Sep 20 20:03 : update: added Steve Vai/Sex & Religion/12 - Down Deep Into The Pain.mp3
+Sep 20 20:03 : update: added Steve Vai/Sex & Religion/07 - Touching Tongues.mp3
+Sep 20 20:03 : update: added Steve Vai/Sex & Religion/03 - In My Dreams With You.mp3
+Sep 20 20:03 : update: added Steve Vai/Sex & Religion/10 - Pig.mp3
+Sep 20 20:03 : update: added Steve Vai/Sex & Religion/09 - Survive.mp3
+Sep 20 20:03 : update: added Steve Vai/Sex & Religion/06 - Dirty Black Hole.mp3
+Sep 20 20:03 : update: added Steve Vai/Sex & Religion/13 - Rescue Me Or Bury Me.mp3
+Sep 20 20:03 : update: added Steve Vai/Sex & Religion/04 - Still My Bleeding Heart.mp3
+Sep 20 20:03 : update: added Steve Vai/Sex & Religion/02 - Here & Now.mp3
+Sep 20 20:03 : update: added Steve Vai/Sex & Religion/08 - State Of Grace.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Light me Up/11 - Far From Never (Demo).mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Light me Up/12 - Everybody Wants Something From Me (Demo).mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Light me Up/09 - Factory Girl.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Light me Up/04 - Light Me Up.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Light me Up/13 - Zombie.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Light me Up/02 - Since You're Gone.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Light me Up/06 - Miss Nothing.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Light me Up/08 - Nothing Left To Lose.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Light me Up/05 - Just Tonight.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Light me Up/14 - Make Me Wanna Die (Acoustic Version).mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Light me Up/10 - You.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Light me Up/01 - My Medicine (Single Version).mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Light me Up/03 - Make Me Wanna Die.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Light me Up/07 - Goin' Down.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/12 - Waiting For A Friend.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/03 - Heaven Knows.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/16 - Only You.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/04 - House On A Hill.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/10 - Why'd You Bring A Shotgun To The Party.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/15 - Sweet Things (Acoustic).mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/11 - Fucked Up World.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/14 - Going To Hell (Live Acoustic).mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/09 - Burn.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/05 - Sweet Things.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/01 - Follow Me Down.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/02 - Going To Hell.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/08 - Blame Me.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/06 - Dear Sister.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/07 - Absolution.mp3
+Sep 20 20:03 : update: added The Pretty Reckless/Going to Hell/13 - Kill Me.mp3
+Sep 20 20:03 : update: added Muse/The Resistance/02 - Resistance.mp3
+Sep 20 20:03 : update: added Muse/The Resistance/07 - MK Ultra.mp3
+Sep 20 20:03 : update: added Muse/The Resistance/04 - United States Of Eurasia (+Collateral Damage).mp3
+Sep 20 20:03 : update: added Muse/The Resistance/10 - Exogenesis Symphony Part 2 (Cross-Pollination).mp3
+Sep 20 20:03 : update: added Muse/The Resistance/09 - Exogenesis Symphony Part 1 (Overture).mp3
+Sep 20 20:03 : update: added Muse/The Resistance/11 - Exogenesis Symphony Part 3 (Redemption).mp3
+Sep 20 20:03 : update: added Muse/The Resistance/01 - Uprising.mp3
+Sep 20 20:03 : update: added Muse/The Resistance/06 - Unnatural Selection.mp3
+Sep 20 20:03 : update: added Muse/The Resistance/08 - I Belong To You (+Mon Cœur S'ouvre À Ta Voix).mp3
+Sep 20 20:03 : update: added Muse/The Resistance/03 - Undisclosed Desires.mp3
+Sep 20 20:03 : update: added Muse/The Resistance/05 - Guiding Light.mp3
+Sep 20 20:03 : update: added Muse/Drones/07 - [JFK].mp3
+Sep 20 20:03 : update: added Muse/Drones/10 - Aftermath.mp3
+Sep 20 20:03 : update: added Muse/Drones/09 - Revolt.mp3
+Sep 20 20:03 : update: added Muse/Drones/03 - Psycho.mp3
+Sep 20 20:03 : update: added Muse/Drones/06 - The Handler.mp3
+Sep 20 20:03 : update: added Muse/Drones/11 - The Globalist.mp3
+Sep 20 20:03 : update: added Muse/Drones/12 - Drones.mp3
+Sep 20 20:03 : update: added Muse/Drones/05 - Reapers.mp3
+Sep 20 20:03 : update: added Muse/Drones/01 - Dead Inside.mp3
+Sep 20 20:03 : update: added Muse/Drones/02 - [Drill Sergeant].mp3
+Sep 20 20:03 : update: added Muse/Drones/08 - Defector.mp3
+Sep 20 20:03 : update: added Muse/Drones/04 - Mercy.mp3
+Sep 20 20:03 : update: added Cage the Elephant/6 - Back Against The Wall.flac
+Sep 20 20:03 : update: added Cage the Elephant/2 - James Brown.flac
+Sep 20 20:03 : update: added Cage the Elephant/1 - In One Ear.flac
+Sep 20 20:03 : update: added Cage the Elephant/3 - Ain't No Rest For The Wicked (Original Version).flac
+Sep 20 20:03 : update: added Cage the Elephant/4 - Tiny Little Robots.flac
+Sep 20 20:03 : update: added Cage the Elephant/11 - Free Love.flac
+Sep 20 20:03 : update: added Cage the Elephant/9 - Back Stabbin' Betty.flac
+Sep 20 20:03 : update: added Cage the Elephant/8 - Judas.flac
+Sep 20 20:03 : update: added Cage the Elephant/10 - Soil To The Sun.flac
+Sep 20 20:03 : update: added Cage the Elephant/7 - Drones In The Valley.flac
+Sep 20 20:03 : update: added Cage the Elephant/5 - Lotus.flac
+Sep 20 20:03 : update: added Ginkobiloba/Mamacita/07 - La Llorona De Candolle.mp3
+Sep 20 20:03 : update: added Ginkobiloba/Mamacita/13 - En Nou Alle.mp3
+Sep 20 20:03 : update: added Ginkobiloba/Mamacita/02 - Yo Vivo Por La Montana.mp3
+Sep 20 20:03 : update: added Ginkobiloba/Mamacita/06 - La Llorona.mp3
+Sep 20 20:03 : update: added Ginkobiloba/Mamacita/01 - Intro Cevennole.mp3
+Sep 20 20:03 : update: added Ginkobiloba/Mamacita/15 - Ouverture.mp3
+Sep 20 20:03 : update: added Ginkobiloba/Mamacita/04 - Kossovo.mp3
+Sep 20 20:03 : update: added Ginkobiloba/Mamacita/03 - Ernesto.mp3
+Sep 20 20:03 : update: added Ginkobiloba/Mamacita/10 - Mystique Revelation.mp3
+Sep 20 20:03 : update: added Ginkobiloba/Mamacita/05 - Ay Mama.mp3
+Sep 20 20:03 : update: added Ginkobiloba/Mamacita/12 - La Mouche.mp3
+Sep 20 20:03 : update: added Ginkobiloba/Mamacita/09 - Yes Lord.mp3
+Sep 20 20:03 : update: added Ginkobiloba/Mamacita/11 - Sources.mp3
+Sep 20 20:03 : update: added Ginkobiloba/Mamacita/08 - De L'Autre Cote.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/6 - One Love.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/12 - Roots Rock Reggae.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/14 - Them Belly Full (But We Hungry).mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/3 - Kaya.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/4 - Keep On Moving.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/18 - Punky Reggae Party.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/13 - Ride Natty Ride.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/11 - Sun Is Shining.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/10 - Exodus.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/18 - Rebel Music (3 O'Clock Road Block).mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/4 - I Shot The Sheriff.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/1 - Positive Vibration.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/3 - Is This Love.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/5 - Lively Up Yourself.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/9 - Buffalo Soldier.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/17 - Duppy Conqueror.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/7 - No Woman, No Cry.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/14 - Waiting In Vain.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/5 - Jamming.mp3
+Sep 20 20:03 : update: added Bob Marley/Greatest Hits/6 - Concrete Jungle.mp3
+Sep 20 20:03 : update: added Guthrie Govan/Erotic Cakes/00 - Slidey Boy.ogg.ogg
+Sep 20 20:03 : update: added Guthrie Govan/Erotic Cakes/00 - Eric.ogg.ogg
+Sep 20 20:03 : update: added Guthrie Govan/Erotic Cakes/00 - Waves.ogg.ogg
+Sep 20 20:03 : update: added Guthrie Govan/Erotic Cakes/00 - Erotic Cakes.ogg.ogg
+Sep 20 20:03 : update: added Guthrie Govan/Erotic Cakes/00 - Uncle Skunk.ogg.ogg
+Sep 20 20:03 : update: added Guthrie Govan/Erotic Cakes/00 - Hangover.ogg.ogg
+Sep 20 20:03 : update: added Guthrie Govan/Erotic Cakes/00 - Rhode Island Shred.ogg.ogg
+Sep 20 20:03 : update: added Guthrie Govan/Erotic Cakes/00 - Fives.ogg.ogg
+Sep 20 20:03 : update: added Guthrie Govan/Erotic Cakes/00 - Sevens.ogg.ogg
+Sep 20 20:03 : update: added Guthrie Govan/Erotic Cakes/00 - Ner Ner.ogg.ogg
+Sep 20 20:03 : update: added Guthrie Govan/Erotic Cakes/00 - Wonderful Slippery Thing.ogg.ogg
+Sep 20 20:03 : update: added The Police/Reggatta de Blanc/08 - The Bed's Too Big Without You.mp3
+Sep 20 20:03 : update: added The Police/Reggatta de Blanc/05 - Deathwish.mp3
+Sep 20 20:03 : update: added The Police/Reggatta de Blanc/04 - Bring On The Night.mp3
+Sep 20 20:03 : update: added The Police/Reggatta de Blanc/10 - Does Everyone Stare.mp3
+Sep 20 20:03 : update: added The Police/Reggatta de Blanc/07 - On Any Other Day.mp3
+Sep 20 20:03 : update: added The Police/Reggatta de Blanc/01 - Message In A Bottle.mp3
+Sep 20 20:03 : update: added The Police/Reggatta de Blanc/06 - Walking On The Moon.mp3
+Sep 20 20:03 : update: added The Police/Reggatta de Blanc/03 - It's Alright For You.mp3
+Sep 20 20:03 : update: added The Police/Reggatta de Blanc/02 - Reggatta De Blanc.mp3
+Sep 20 20:03 : update: added The Police/Reggatta de Blanc/11 - No Time This Time.mp3
+Sep 20 20:03 : update: added The Police/Reggatta de Blanc/09 - Contact.mp3
+Sep 20 20:03 : update: added The Police/Outlandos d Amour/01 - Next To You.mp3
+Sep 20 20:03 : update: added The Police/Outlandos d Amour/07 - Truth Hits Everbody.mp3
+Sep 20 20:03 : update: added The Police/Outlandos d Amour/09 - Be My Girl - Sally.mp3
+Sep 20 20:03 : update: added The Police/Outlandos d Amour/03 - Roxanne.mp3
+Sep 20 20:03 : update: added The Police/Outlandos d Amour/02 - So Lonely.mp3
+Sep 20 20:03 : update: added The Police/Outlandos d Amour/04 - Hole In My Life.mp3
+Sep 20 20:03 : update: added The Police/Outlandos d Amour/10 - Masoko Tanga.mp3
+Sep 20 20:03 : update: added The Police/Outlandos d Amour/06 - Can't Stand Losing You.mp3
+Sep 20 20:03 : update: added The Police/Outlandos d Amour/05 - Peanuts.mp3
+Sep 20 20:03 : update: added The Police/Outlandos d Amour/08 - Born In The 50's.mp3
+Sep 20 20:03 : client: [0] opened from 127.0.0.1:42384
+Sep 20 20:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 20:03 : client: [0] opened from 127.0.0.1:42396
+Sep 20 20:03 : client: [1] opened from 127.0.0.1:42400
+Sep 20 20:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 20:04 : client: [2] opened from 127.0.0.1:42402
+Sep 20 20:04 : client: [2] closed
+Sep 20 20:04 : client: [3] opened from 127.0.0.1:42404
+Sep 20 20:04 : client: [3] closed
+Sep 20 20:04 : client: [4] opened from 127.0.0.1:42406
+Sep 20 20:04 : player: played "Bob Marley/Greatest Hits/1 - Positive Vibration.mp3"
+Sep 20 20:04 : client: [4] closed
+Sep 20 20:04 : client: [5] opened from 127.0.0.1:42408
+Sep 20 20:04 : client: [5] closed
+Sep 20 20:04 : client: [6] opened from 127.0.0.1:42410
+Sep 20 20:04 : client: [6] closed
+Sep 20 20:42 : avahi: Client Disconnected, will reconnect shortly
+Sep 20 20:42 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 20 20:42 : player: played "Bob Marley/Greatest Hits/1 - Positive Vibration.mp3"
+Sep 20 20:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 20:45 : client: [0] opened from 127.0.0.1:51298
+Sep 20 20:49 : client: [1] opened from 127.0.0.1:51302
+Sep 20 20:49 : client: [1] closed
+Sep 20 21:31 : client: [2] opened from 127.0.0.1:52090
+Sep 20 21:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 21:31 : client: [2] closed
+Sep 20 21:31 : client: [3] opened from 127.0.0.1:52092
+Sep 20 21:31 : client: [3] closed
+Sep 20 21:43 : client: [0] closed
+Sep 20 21:43 : client: [4] opened from 127.0.0.1:52404
+Sep 20 21:43 : player: played "Bob Marley/Greatest Hits/1 - Positive Vibration.mp3"
+Sep 21 08:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 21 08:40 : client: [0] opened from 127.0.0.1:35224
+Sep 21 08:58 : client: [1] opened from 127.0.0.1:35576
+Sep 21 08:58 : player: played "Bob Marley/Greatest Hits/1 - Positive Vibration.mp3"
+Sep 21 08:58 : client: [1] closed
+Sep 21 09:33 : client: [0] closed
+Sep 21 09:33 : client: [2] opened from 127.0.0.1:35824
+Sep 21 09:51 : client: [2] closed
+Sep 21 09:51 : client: [3] opened from 127.0.0.1:36008
+Sep 21 13:04 : client: [4] opened from 127.0.0.1:36592
+Sep 21 13:06 : client: [4] closed
+Sep 21 13:08 : client: [3] closed
+Sep 21 13:08 : client: [5] opened from 127.0.0.1:36612
+Sep 21 13:10 : client: [5] closed
+Sep 21 13:10 : client: [6] opened from 127.0.0.1:36618
+Sep 21 13:10 : client: [6] closed
+Sep 21 13:10 : client: [7] opened from 127.0.0.1:36620
+Sep 21 13:14 : client: [7] closed
+Sep 21 13:14 : client: [8] opened from 127.0.0.1:36644
+Sep 21 13:15 : client: [8] closed
+Sep 21 13:15 : client: [9] opened from 127.0.0.1:36646
+Sep 21 13:18 : client: [9] closed
+Sep 21 13:18 : client: [10] opened from 127.0.0.1:36650
+Sep 21 13:22 : client: [10] closed
+Sep 21 13:22 : client: [11] opened from 127.0.0.1:36652
+Sep 21 13:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 21 13:23 : client: [0] opened from 127.0.0.1:45980
+Sep 21 13:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 21 13:25 : client: [0] opened from 127.0.0.1:57680
+Sep 21 16:47 : client: [1] opened from 127.0.0.1:58638
+Sep 21 17:55 : client: [0] closed
+Sep 21 17:55 : client: [2] opened from 127.0.0.1:58870
+Sep 21 17:56 : client: [2] closed
+Sep 21 17:56 : client: [3] opened from 127.0.0.1:58872
+Sep 21 17:57 : client: [3] closed
+Sep 21 17:57 : client: [4] opened from 127.0.0.1:58874
+Sep 21 17:58 : client: [4] closed
+Sep 21 17:58 : client: [5] opened from 127.0.0.1:58876
+Sep 22 14:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 22 14:27 : client: [0] opened from 127.0.0.1:47280
+Sep 23 12:42 : client: [1] opened from 127.0.0.1:51624
+Sep 23 12:42 : client: [1] closed
+Sep 23 12:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 23 12:42 : client: [2] opened from 127.0.0.1:51626
+Sep 23 12:42 : player: played "Bob Marley/Greatest Hits/1 - Positive Vibration.mp3"
+Sep 23 12:42 : client: [2] closed
+Sep 23 12:42 : client: [3] opened from 127.0.0.1:51630
+Sep 23 12:43 : client: [3] closed
+Sep 23 12:43 : client: [4] opened from 127.0.0.1:51642
+Sep 23 12:43 : client: [5] opened from 127.0.0.1:51644
+Sep 23 12:43 : player: played "P.O.D./SoCal Sessions [Acoustic]/09 - Lost In Forever.mp3"
+Sep 23 12:43 : client: [5] closed
+Sep 23 12:56 : client: [0] closed
+Sep 23 12:56 : client: [6] opened from 127.0.0.1:51920
+Sep 23 16:08 : client: [6] closed
+Sep 23 16:08 : client: [7] opened from 127.0.0.1:56554
+Sep 23 16:08 : client: [7] closed
+Sep 23 16:08 : client: [8] opened from 127.0.0.1:56556
+Sep 24 00:49 : client: [8] closed
+Sep 24 00:49 : client: [9] opened from 127.0.0.1:32914
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Sep 24 01:00 : exception: Failed to open "Alsa for audio sound card" [alsa]
+Sep 24 01:00 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 24 01:15 : player: played "The Pretty Reckless/Going to Hell/14 - Going To Hell (Live Acoustic).mp3"
+Sep 24 01:28 : client: [10] opened from 127.0.0.1:33270
+Sep 24 01:28 : client: [10] closed
+Sep 24 01:28 : client: [11] opened from 127.0.0.1:33272
+Sep 24 01:28 : client: [11] closed
+Sep 24 01:28 : client: [12] opened from 127.0.0.1:33274
+Sep 24 01:28 : client: [12] closed
+Sep 24 01:28 : client: [13] opened from 127.0.0.1:33276
+Sep 24 01:28 : client: [13] closed
+Sep 24 01:28 : client: [14] opened from 127.0.0.1:33278
+Sep 24 01:28 : client: [14] closed
+Sep 24 01:28 : client: [15] opened from 127.0.0.1:33280
+Sep 24 01:28 : client: [15] closed
+Sep 24 01:28 : client: [16] opened from 127.0.0.1:33282
+Sep 24 01:28 : client: [16] closed
+Sep 24 01:28 : client: [17] opened from 127.0.0.1:33284
+Sep 24 01:28 : client: [17] closed
+Sep 24 01:28 : client: [18] opened from 127.0.0.1:33286
+Sep 24 01:28 : client: [18] closed
+Sep 24 01:28 : client: [19] opened from 127.0.0.1:33288
+Sep 24 01:28 : client: [19] closed
+Sep 24 01:28 : client: [20] opened from 127.0.0.1:33290
+Sep 24 01:28 : client: [20] closed
+Sep 24 01:28 : client: [21] opened from 127.0.0.1:33292
+Sep 24 01:28 : client: [21] closed
+Sep 24 01:28 : client: [22] opened from 127.0.0.1:33294
+Sep 24 01:28 : client: [22] closed
+Sep 24 01:28 : client: [23] opened from 127.0.0.1:33296
+Sep 24 01:28 : client: [23] closed
+Sep 24 01:28 : client: [24] opened from 127.0.0.1:33298
+Sep 24 01:28 : client: [24] closed
+Sep 24 01:28 : client: [25] opened from 127.0.0.1:33300
+Sep 24 01:28 : client: [25] closed
+Sep 24 01:28 : client: [26] opened from 127.0.0.1:33302
+Sep 24 01:28 : client: [26] closed
+Sep 24 01:28 : client: [27] opened from 127.0.0.1:33304
+Sep 24 01:28 : client: [27] closed
+Sep 24 01:28 : client: [28] opened from 127.0.0.1:33306
+Sep 24 01:28 : client: [28] closed
+Sep 24 01:28 : client: [29] opened from 127.0.0.1:33308
+Sep 24 01:28 : client: [29] closed
+Sep 24 01:28 : client: [30] opened from 127.0.0.1:33310
+Sep 24 01:28 : client: [30] closed
+Sep 24 01:28 : client: [31] opened from 127.0.0.1:33312
+Sep 24 01:28 : client: [31] closed
+Sep 24 01:28 : client: [32] opened from 127.0.0.1:33314
+Sep 24 01:28 : client: [32] closed
+Sep 24 01:28 : client: [33] opened from 127.0.0.1:33316
+Sep 24 01:28 : client: [33] closed
+Sep 24 01:28 : client: [34] opened from 127.0.0.1:33318
+Sep 24 01:28 : client: [34] closed
+Sep 24 01:29 : client: [35] opened from 127.0.0.1:33320
+Sep 24 01:29 : client: [35] closed
+Sep 24 01:29 : client: [36] opened from 127.0.0.1:33322
+Sep 24 01:29 : client: [36] closed
+Sep 24 01:29 : client: [37] opened from 127.0.0.1:33324
+Sep 24 01:29 : client: [37] closed
+Sep 24 01:29 : client: [38] opened from 127.0.0.1:33326
+Sep 24 01:29 : client: [38] closed
+Sep 24 01:31 : player: played "Cage the Elephant/7 - Drones In The Valley.flac"
+Sep 24 01:35 : player: played "Steve Vai/Paradise and Warfare/02 - Erotic Nightmares.mp3"
+Sep 24 01:39 : player: played "Steve Vai/Modern Primitive/03 - Mighty Messengers.mp3"
+Sep 24 01:39 : client: [9] closed
+Sep 24 01:40 : client: [39] opened from 127.0.0.1:33424
+Sep 24 01:41 : client: [39] closed
+Sep 24 01:41 : client: [40] opened from 127.0.0.1:33440
+Sep 24 01:41 : client: [40] closed
+Sep 24 01:41 : client: [41] opened from 127.0.0.1:33442
+Sep 24 01:42 : client: [41] closed
+Sep 24 01:42 : client: [4] closed
+Sep 24 01:42 : client: [42] opened from 127.0.0.1:33444
+Sep 24 01:42 : client: [42] closed
+Sep 24 01:42 : client: [43] opened from 127.0.0.1:33446
+Sep 24 01:43 : client: [43] closed
+Sep 24 01:43 : client: [44] opened from 127.0.0.1:33448
+Sep 24 01:45 : player: played "Steve Vai/Modern Primitive/01 - Bop!.mp3"
+Sep 24 01:46 : client: [45] opened from 127.0.0.1:33558
+Sep 24 01:50 : player: played "Steve Vai/Alien Love Secrets/07 - Tender Surrender.mp3"
+Sep 24 01:54 : player: played "The Pretty Reckless/Going to Hell/15 - Sweet Things (Acoustic).mp3"
+Sep 24 01:56 : client: [46] opened from 127.0.0.1:33724
+Sep 24 01:56 : client: [46] closed
+Sep 24 03:24 : client: [47] opened from 127.0.0.1:36668
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Sep 24 03:24 : exception: Failed to open "Alsa for audio sound card" [alsa]
+Sep 24 03:24 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 24 03:24 : client: [47] closed
+Sep 24 03:24 : exception: Failed to open audio output
+Sep 24 03:25 : client: [48] opened from 127.0.0.1:36670
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Sep 24 03:25 : exception: Failed to open "Alsa for audio sound card" [alsa]
+Sep 24 03:25 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 24 03:25 : client: [48] closed
+Sep 24 03:25 : client: [49] opened from 127.0.0.1:36672
+Sep 24 03:25 : client: [49] closed
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Sep 24 03:25 : exception: Failed to open "Alsa for audio sound card" [alsa]
+Sep 24 03:25 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 24 03:25 : exception: Failed to open audio output
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Sep 24 03:25 : exception: Failed to open "Alsa for audio sound card" [alsa]
+Sep 24 03:25 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 24 05:05 : avahi: Client Disconnected, will reconnect shortly
+Sep 24 05:05 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 24 05:05 : client: [45] closed
+Sep 24 05:05 : client: [44] closed
+Sep 24 05:05 : player: played "Ginkobiloba/Mamacita/03 - Ernesto.mp3"
+Sep 24 17:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 24 17:08 : client: [0] opened from 127.0.0.1:49812
+Sep 24 17:08 : client: [0] closed
+Sep 24 17:08 : client: [1] opened from 127.0.0.1:49814
+Sep 24 18:31 : client: [2] opened from 127.0.0.1:50474
+Sep 24 18:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 24 18:31 : client: [2] closed
+Sep 24 18:32 : client: [3] opened from 127.0.0.1:50482
+Sep 24 18:32 : player: played "Ginkobiloba/Mamacita/03 - Ernesto.mp3"
+Sep 24 18:32 : client: [3] closed
+Sep 25 01:04 : client: [1] closed
+Sep 25 01:04 : client: [4] opened from 127.0.0.1:51522
+Sep 25 01:05 : client: [4] closed
+Sep 25 01:05 : client: [5] opened from 127.0.0.1:51524
+Sep 25 01:05 : client: [5] closed
+Sep 25 01:05 : client: [6] opened from 127.0.0.1:51526
+Sep 25 01:06 : client: [6] closed
+Sep 25 01:06 : client: [7] opened from 127.0.0.1:51528
+Sep 25 01:07 : client: [7] closed
+Sep 25 01:07 : client: [8] opened from 127.0.0.1:51530
+Sep 25 01:16 : client: [8] closed
+Sep 25 01:16 : client: [9] opened from 127.0.0.1:51632
+Sep 25 01:20 : client: [9] closed
+Sep 25 01:20 : client: [10] opened from 127.0.0.1:51722
+Sep 25 01:26 : client: [10] closed
+Sep 25 01:26 : client: [11] opened from 127.0.0.1:51890
+Sep 25 01:33 : client: [11] closed
+Sep 25 01:33 : client: [12] opened from 127.0.0.1:51892
+Sep 25 01:33 : client: [12] closed
+Sep 25 01:33 : client: [13] opened from 127.0.0.1:51894
+Sep 25 01:34 : client: [13] closed
+Sep 25 01:34 : client: [14] opened from 127.0.0.1:51896
+Sep 25 01:34 : client: [15] opened from 127.0.0.1:51900
+Sep 25 01:36 : client: [14] closed
+Sep 25 01:36 : client: [15] closed
+Sep 25 01:36 : client: [16] opened from 127.0.0.1:51902
+Sep 25 01:36 : client: [17] opened from 127.0.0.1:51906
+Sep 25 01:36 : client: [17] closed
+Sep 25 01:37 : client: [16] closed
+Sep 25 01:37 : client: [18] opened from 127.0.0.1:51908
+Sep 25 01:37 : client: [19] opened from 127.0.0.1:51912
+Sep 25 01:38 : client: [19] closed
+Sep 25 01:38 : client: [18] closed
+Sep 25 01:38 : client: [20] opened from 127.0.0.1:51914
+Sep 25 01:38 : client: [21] opened from 127.0.0.1:51918
+Sep 25 01:41 : client: [20] closed
+Sep 25 01:41 : client: [22] opened from 127.0.0.1:51920
+Sep 25 01:41 : client: [22] closed
+Sep 25 01:41 : client: [23] opened from 127.0.0.1:51922
+Sep 25 01:46 : client: [23] closed
+Sep 25 01:49 : avahi: Client Disconnected, will reconnect shortly
+Sep 25 01:49 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 25 01:49 : client: [21] closed
+Sep 25 01:49 : player: played "The Pretty Reckless/Going to Hell/03 - Heaven Knows.mp3"
+Sep 25 08:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 25 08:51 : client: [0] opened from 127.0.0.1:52316
+Sep 25 08:51 : client: [1] opened from 127.0.0.1:52320
+Sep 25 08:58 : client: [1] closed
+Sep 25 09:01 : client: [2] opened from 127.0.0.1:52324
+Sep 25 09:01 : player: played "The Pretty Reckless/Going to Hell/03 - Heaven Knows.mp3"
+Sep 25 09:01 : client: [2] closed
+Sep 25 10:13 : client: [0] closed
+Sep 25 10:13 : avahi: Client Disconnected, will reconnect shortly
+Sep 25 10:13 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 25 10:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 25 10:33 : client: [0] opened from 127.0.0.1:44322
+Sep 25 10:33 : client: [1] opened from 127.0.0.1:44324
+Sep 25 10:36 : client: [0] closed
+Sep 25 10:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 25 10:41 : client: [0] opened from 127.0.0.1:45712
+Sep 25 10:41 : client: [1] opened from 127.0.0.1:45716
+Sep 25 14:08 : client: [0] closed
+Sep 25 14:08 : client: [2] opened from 127.0.0.1:49672
+Sep 25 14:08 : client: [2] closed
+Sep 25 14:08 : client: [3] opened from 127.0.0.1:49674
+Sep 25 14:20 : client: [1] closed
+Sep 26 14:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 26 14:13 : client: [0] opened from 127.0.0.1:48950
+Sep 26 14:13 : client: [1] opened from 127.0.0.1:48954
+Sep 26 14:15 : client: [1] closed
+Sep 26 14:57 : client: [0] closed
+Sep 26 14:57 : client: [2] opened from 127.0.0.1:50198
+Sep 26 18:49 : client: [2] closed
+Sep 26 18:49 : client: [3] opened from 127.0.0.1:50630
+Sep 26 18:49 : client: [3] closed
+Sep 26 18:49 : client: [4] opened from 127.0.0.1:50632
+Sep 26 18:52 : client: [4] closed
+Sep 26 18:52 : client: [5] opened from 127.0.0.1:50658
+Sep 27 14:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 27 14:13 : client: [0] opened from 127.0.0.1:36480
+Sep 27 14:13 : client: [1] opened from 127.0.0.1:36484
+Sep 27 14:32 : client: [1] closed
+Sep 27 19:22 : client: [0] closed
+Sep 27 19:22 : client: [2] opened from 127.0.0.1:37282
+Sep 27 19:22 : client: [2] closed
+Sep 27 19:22 : client: [3] opened from 127.0.0.1:37284
+Sep 27 21:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 27 21:02 : client: [0] opened from 127.0.0.1:34496
+Sep 27 21:02 : client: [1] opened from 127.0.0.1:34500
+Sep 27 21:03 : client: [0] closed
+Sep 27 21:03 : client: [2] opened from 127.0.0.1:34502
+Sep 28 08:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 08:43 : client: [0] opened from 127.0.0.1:41658
+Sep 28 08:43 : client: [1] opened from 127.0.0.1:41660
+Sep 28 08:43 : client: [0] closed
+Sep 28 10:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 10:08 : client: [0] opened from 127.0.0.1:54832
+Sep 28 10:08 : client: [1] opened from 127.0.0.1:54836
+Sep 28 10:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 10:19 : player: played "Cage the Elephant/11 - Free Love.flac"
+Sep 28 10:19 : client: [1] closed
+Sep 28 10:19 : client: [2] opened from 127.0.0.1:54984
+Sep 28 10:19 : player: played "Cage the Elephant/7 - Drones In The Valley.flac"
+Sep 28 10:19 : client: [2] closed
+Sep 28 10:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 10:56 : client: [0] opened from 127.0.0.1:46918
+Sep 28 10:56 : client: [1] opened from 127.0.0.1:46922
+Sep 28 18:00 : client: [1] closed
+Sep 28 18:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 18:00 : client: [0] opened from 127.0.0.1:56386
+Sep 28 18:00 : client: [1] opened from 127.0.0.1:56390
+Sep 28 18:02 : client: [1] closed
+Sep 28 18:02 : client: [0] closed
+Sep 28 18:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 18:04 : client: [0] opened from 127.0.0.1:52192
+Sep 28 18:04 : client: [1] opened from 127.0.0.1:52196
+Sep 28 18:05 : client: [0] closed
+Sep 28 18:05 : client: [1] closed
+Sep 28 18:05 : client: [2] opened from 127.0.0.1:52198
+Sep 28 18:05 : client: [3] opened from 127.0.0.1:52202
+Sep 28 18:10 : client: [2] closed
+Sep 28 18:10 : client: [3] closed
+Sep 28 18:10 : avahi: Client Disconnected, will reconnect shortly
+Sep 28 18:10 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 28 18:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 18:10 : client: [0] opened from 127.0.0.1:56264
+Sep 28 18:10 : client: [1] opened from 127.0.0.1:56268
+Sep 28 18:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 18:13 : client: [0] opened from 127.0.0.1:37856
+Sep 28 18:13 : client: [1] opened from 127.0.0.1:37860
+Sep 28 18:14 : avahi: Client Disconnected, will reconnect shortly
+Sep 28 18:14 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 28 18:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 18:15 : client: [0] opened from 127.0.0.1:55224
+Sep 28 18:15 : client: [1] opened from 127.0.0.1:55228
+Sep 28 22:54 : client: [1] closed
+Sep 28 22:54 : client: [0] closed
+Sep 28 22:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 22:56 : client: [0] opened from 127.0.0.1:60860
+Sep 28 22:56 : client: [1] opened from 127.0.0.1:60864
+Sep 28 22:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 22:59 : client: [0] opened from 127.0.0.1:44332
+Sep 28 22:59 : client: [1] opened from 127.0.0.1:44336
+Sep 28 22:59 : client: [1] closed
+Sep 28 23:15 : client: [0] closed
+Sep 28 23:15 : client: [2] opened from 127.0.0.1:44350
+Sep 28 23:15 : client: [2] closed
+Sep 28 23:15 : client: [3] opened from 127.0.0.1:44352
+Sep 28 23:57 : avahi: Client Disconnected, will reconnect shortly
+Sep 28 23:57 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 28 23:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 23:58 : client: [0] opened from 127.0.0.1:53546
+Sep 28 23:58 : client: [1] opened from 127.0.0.1:53550
+Sep 28 23:58 : client: [0] closed
+Sep 28 23:58 : client: [2] opened from 127.0.0.1:53552
+Sep 29 00:12 : client: [1] closed
+Sep 29 01:48 : client: [2] closed
+Sep 29 01:48 : client: [3] opened from 127.0.0.1:54348
+Sep 29 01:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 29 01:49 : client: [0] opened from 127.0.0.1:36448
+Sep 29 01:49 : client: [1] opened from 127.0.0.1:36452
+Sep 29 01:49 : client: [0] closed
+Sep 29 01:49 : client: [2] opened from 127.0.0.1:36454
+Sep 29 01:50 : client: [2] closed
+Sep 29 01:50 : client: [3] opened from 127.0.0.1:36456
+Sep 29 01:51 : client: [3] closed
+Sep 29 01:51 : client: [4] opened from 127.0.0.1:36458
+Sep 29 01:51 : client: [4] closed
+Sep 29 01:51 : client: [5] opened from 127.0.0.1:36460
+Sep 29 01:51 : client: [5] closed
+Sep 29 01:51 : client: [6] opened from 127.0.0.1:36462
+Sep 29 01:51 : client: [1] closed
+Sep 29 01:51 : client: [6] closed
+Sep 29 01:51 : client: [7] opened from 127.0.0.1:36464
+Sep 29 01:51 : client: [8] opened from 127.0.0.1:36468
+Sep 29 01:52 : client: [8] closed
+Sep 29 01:56 : client: [7] closed
+Sep 29 01:56 : client: [9] opened from 127.0.0.1:36470
+Sep 29 01:56 : client: [9] closed
+Sep 29 01:56 : client: [10] opened from 127.0.0.1:36472
+Sep 29 01:58 : client: [10] closed
+Sep 29 01:58 : client: [11] opened from 127.0.0.1:36532
+Sep 29 01:58 : client: [12] opened from 127.0.0.1:36536
+Sep 29 01:58 : client: [11] closed
+Sep 29 01:58 : client: [13] opened from 127.0.0.1:36538
+Sep 29 02:03 : client: [12] closed
+Sep 29 02:47 : client: [13] closed
+Sep 29 02:47 : client: [14] opened from 127.0.0.1:37852
+Sep 29 02:49 : client: [14] closed
+Sep 29 02:49 : client: [15] opened from 127.0.0.1:37856
+Sep 29 02:49 : client: [15] closed
+Sep 29 02:49 : client: [16] opened from 127.0.0.1:37858
+Sep 29 02:56 : client: [16] closed
+Sep 29 02:56 : avahi: Client Disconnected, will reconnect shortly
+Sep 29 02:56 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 29 02:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 29 02:56 : client: [0] opened from 127.0.0.1:40160
+Sep 29 02:56 : client: [1] opened from 127.0.0.1:40164
+Sep 29 02:58 : client: [0] closed
+Sep 29 02:58 : client: [2] opened from 127.0.0.1:40194
+Sep 29 02:59 : client: [1] closed
+Sep 29 03:00 : client: [2] closed
+Sep 29 03:00 : client: [3] opened from 127.0.0.1:40202
+Sep 29 03:01 : client: [3] closed
+Sep 29 03:01 : client: [4] opened from 127.0.0.1:40204
+Sep 29 03:02 : client: [4] closed
+Sep 29 03:02 : client: [5] opened from 127.0.0.1:40206
+Sep 29 03:02 : client: [5] closed
+Sep 29 03:02 : client: [6] opened from 127.0.0.1:40208
+Sep 29 03:02 : client: [6] closed
+Sep 29 03:02 : client: [7] opened from 127.0.0.1:40210
+Sep 29 03:03 : client: [7] closed
+Sep 29 03:03 : client: [8] opened from 127.0.0.1:40212
+Sep 29 03:08 : avahi: Client Disconnected, will reconnect shortly
+Sep 29 03:08 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 29 03:08 : client: [8] closed
+Sep 29 03:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 29 03:09 : client: [0] opened from 127.0.0.1:32866
+Sep 29 03:13 : client: [0] closed
+Sep 29 03:13 : client: [1] opened from 127.0.0.1:32960
+Sep 29 03:13 : client: [1] closed
+Sep 29 03:13 : client: [2] opened from 127.0.0.1:32962
+Sep 29 03:13 : client: [2] closed
+Sep 29 03:13 : client: [3] opened from 127.0.0.1:32964
+Sep 29 03:13 : client: [3] closed
+Sep 29 03:13 : client: [4] opened from 127.0.0.1:32966
+Sep 29 03:13 : client: [4] closed
+Sep 29 03:13 : client: [5] opened from 127.0.0.1:32968
+Sep 29 03:22 : client: [5] closed
+Sep 29 03:22 : client: [6] opened from 127.0.0.1:33034
+Sep 29 03:22 : client: [6] closed
+Sep 29 03:22 : client: [7] opened from 127.0.0.1:33036
+Sep 29 03:23 : client: [7] closed
+Sep 29 03:23 : client: [8] opened from 127.0.0.1:33038
+Sep 29 03:23 : client: [8] closed
+Sep 29 03:23 : client: [9] opened from 127.0.0.1:33040
+Sep 29 03:23 : client: [9] closed
+Sep 29 03:23 : client: [10] opened from 127.0.0.1:33042
+Sep 29 03:23 : client: [10] closed
+Sep 29 03:23 : client: [11] opened from 127.0.0.1:33044
+Sep 29 03:24 : client: [11] closed
+Sep 29 03:24 : client: [12] opened from 127.0.0.1:33046
+Sep 29 03:24 : client: [12] closed
+Sep 29 03:24 : client: [13] opened from 127.0.0.1:33048
+Sep 29 03:24 : client: [13] closed
+Sep 29 03:24 : client: [14] opened from 127.0.0.1:33050
+Sep 29 03:24 : client: [14] closed
+Sep 29 03:24 : client: [15] opened from 127.0.0.1:33052
+Sep 29 03:24 : client: [15] closed
+Sep 29 03:24 : client: [16] opened from 127.0.0.1:33054
+Sep 29 03:26 : client: [16] closed
+Sep 29 03:26 : client: [17] opened from 127.0.0.1:33074
+Sep 29 03:26 : client: [17] closed
+Sep 29 03:26 : client: [18] opened from 127.0.0.1:33076
+Sep 29 03:26 : client: [18] closed
+Sep 29 03:26 : client: [19] opened from 127.0.0.1:33078
+Sep 29 03:26 : client: [19] closed
+Sep 29 03:26 : client: [20] opened from 127.0.0.1:33080
+Sep 29 03:28 : client: [20] closed
+Sep 29 03:28 : client: [21] opened from 127.0.0.1:33082
+Sep 29 03:28 : client: [21] closed
+Sep 29 03:28 : client: [22] opened from 127.0.0.1:33084
+Sep 29 03:28 : client: [22] closed
+Sep 29 03:28 : client: [23] opened from 127.0.0.1:33086
+Sep 29 03:28 : client: [23] closed
+Sep 29 03:28 : client: [24] opened from 127.0.0.1:33088
+Sep 29 03:33 : client: [24] closed
+Sep 29 03:33 : client: [25] opened from 127.0.0.1:33224
+Sep 29 03:33 : client: [25] closed
+Sep 29 03:33 : client: [26] opened from 127.0.0.1:33226
+Sep 29 03:33 : client: [26] closed
+Sep 29 03:33 : client: [27] opened from 127.0.0.1:33228
+Sep 29 03:33 : client: [27] closed
+Sep 29 03:33 : client: [28] opened from 127.0.0.1:33230
+Sep 29 03:35 : client: [28] closed
+Sep 29 03:35 : client: [29] opened from 127.0.0.1:33232
+Sep 29 03:35 : client: [29] closed
+Sep 29 03:35 : client: [30] opened from 127.0.0.1:33234
+Sep 29 03:36 : client: [30] closed
+Sep 29 03:36 : client: [31] opened from 127.0.0.1:33236
+Sep 29 03:36 : client: [31] closed
+Sep 29 03:36 : client: [32] opened from 127.0.0.1:33238
+Sep 29 03:37 : client: [32] closed
+Sep 29 03:37 : client: [33] opened from 127.0.0.1:33240
+Sep 29 03:37 : client: [33] closed
+Sep 29 03:37 : client: [34] opened from 127.0.0.1:33242
+Sep 29 03:37 : client: [34] closed
+Sep 29 03:37 : client: [35] opened from 127.0.0.1:33244
+Sep 29 03:37 : client: [35] closed
+Sep 29 03:37 : client: [36] opened from 127.0.0.1:33246
+Sep 29 03:37 : client: [36] closed
+Sep 29 03:37 : client: [37] opened from 127.0.0.1:33248
+Sep 29 03:37 : client: [37] closed
+Sep 29 03:37 : client: [38] opened from 127.0.0.1:33250
+Sep 29 03:42 : client: [38] closed
+Sep 29 03:42 : client: [39] opened from 127.0.0.1:33252
+Sep 29 03:42 : client: [39] closed
+Sep 29 03:42 : client: [40] opened from 127.0.0.1:33254
+Sep 29 03:42 : client: [40] closed
+Sep 29 03:42 : client: [41] opened from 127.0.0.1:33256
+Sep 29 03:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 29 03:45 : client: [0] opened from 127.0.0.1:36826
+Sep 29 03:46 : avahi: Client Disconnected, will reconnect shortly
+Sep 29 03:46 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 29 03:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 29 03:47 : client: [0] opened from 127.0.0.1:60310
+Sep 29 03:52 : client: [0] closed
+Sep 29 03:52 : client: [1] opened from 127.0.0.1:60398
+Sep 29 03:52 : client: [1] closed
+Sep 29 03:53 : client: [2] opened from 127.0.0.1:60400
+Sep 29 03:53 : client: [2] closed
+Sep 29 03:53 : client: [3] opened from 127.0.0.1:60402
+Sep 29 03:53 : client: [3] closed
+Sep 29 03:53 : client: [4] opened from 127.0.0.1:60404
+Sep 29 03:53 : client: [4] closed
+Sep 29 03:53 : client: [5] opened from 127.0.0.1:60406
+Sep 29 03:55 : client: [5] closed
+Sep 29 03:55 : client: [6] opened from 127.0.0.1:60408
+Sep 29 03:55 : client: [6] closed
+Sep 29 03:55 : client: [7] opened from 127.0.0.1:60410
+Sep 29 03:56 : client: [7] closed
+Sep 29 03:56 : client: [8] opened from 127.0.0.1:60412
+Sep 29 03:58 : client: [8] closed
+Sep 29 03:58 : client: [9] opened from 127.0.0.1:60464
+Sep 29 03:58 : client: [9] closed
+Sep 29 03:58 : client: [10] opened from 127.0.0.1:60466
+Sep 29 04:02 : client: [10] closed
+Sep 29 04:02 : client: [11] opened from 127.0.0.1:60578
+Sep 29 04:02 : client: [11] closed
+Sep 29 04:02 : client: [12] opened from 127.0.0.1:60580
+Sep 29 04:02 : client: [12] closed
+Sep 29 04:02 : client: [13] opened from 127.0.0.1:60582
+Sep 29 04:02 : client: [13] closed
+Sep 29 04:02 : client: [14] opened from 127.0.0.1:60584
+Sep 29 04:02 : client: [14] closed
+Sep 29 04:02 : client: [15] opened from 127.0.0.1:60586
+Sep 29 04:02 : client: [15] closed
+Sep 29 04:02 : client: [16] opened from 127.0.0.1:60588
+Sep 29 04:02 : client: [16] closed
+Sep 29 04:02 : client: [17] opened from 127.0.0.1:60590
+Sep 29 04:03 : client: [17] closed
+Sep 29 04:03 : client: [18] opened from 127.0.0.1:60592
+Sep 29 04:03 : client: [18] closed
+Sep 29 04:03 : client: [19] opened from 127.0.0.1:60594
+Sep 29 04:03 : client: [19] closed
+Sep 29 04:03 : client: [20] opened from 127.0.0.1:60602
+Sep 29 04:04 : client: [20] closed
+Sep 29 04:04 : client: [21] opened from 127.0.0.1:60604
+Sep 29 04:04 : client: [21] closed
+Sep 29 04:04 : client: [22] opened from 127.0.0.1:60606
+Sep 29 04:04 : client: [22] closed
+Sep 29 04:04 : client: [23] opened from 127.0.0.1:60608
+Sep 29 04:05 : client: [23] closed
+Sep 29 04:05 : client: [24] opened from 127.0.0.1:60610
+Sep 29 04:06 : client: [24] closed
+Sep 29 04:06 : client: [25] opened from 127.0.0.1:60612
+Sep 29 04:06 : client: [25] closed
+Sep 29 04:07 : client: [26] opened from 127.0.0.1:60614
+Sep 29 04:07 : client: [26] closed
+                                                                                                                                                Sep 29 04:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 29 04:08 : client: [0] opened from 127.0.0.1:35414
+Sep 29 04:09 : client: [0] closed
+Sep 29 04:09 : client: [1] opened from 127.0.0.1:35416
+Sep 29 04:10 : client: [1] closed
+Sep 29 04:10 : client: [2] opened from 127.0.0.1:35418
+Sep 29 04:10 : client: [2] closed
+Sep 29 04:10 : client: [3] opened from 127.0.0.1:35420
+Sep 29 04:11 : client: [3] closed
+Sep 29 04:11 : client: [4] opened from 127.0.0.1:35422
+Sep 29 04:11 : client: [4] closed
+Sep 29 04:11 : client: [5] opened from 127.0.0.1:35424
+Sep 29 04:12 : client: [5] closed
+Sep 29 04:12 : client: [6] opened from 127.0.0.1:35426
+Sep 29 04:12 : client: [6] closed
+Sep 29 04:12 : client: [7] opened from 127.0.0.1:35428
+Sep 29 04:13 : client: [7] closed
+Sep 29 04:13 : client: [8] opened from 127.0.0.1:35430
+Sep 29 04:13 : client: [8] closed
+Sep 29 04:13 : client: [9] opened from 127.0.0.1:35432
+Sep 29 04:14 : client: [9] closed
+Sep 29 04:14 : client: [10] opened from 127.0.0.1:35434
+Sep 29 04:14 : client: [10] closed
+Sep 29 04:14 : client: [11] opened from 127.0.0.1:35436
+Sep 29 04:14 : client: [11] closed
+Sep 29 04:14 : client: [12] opened from 127.0.0.1:35438
+Sep 29 04:14 : client: [12] closed
+Sep 29 04:14 : client: [13] opened from 127.0.0.1:35440
+Sep 29 04:14 : client: [13] closed
+Sep 29 04:14 : client: [14] opened from 127.0.0.1:35442
+Sep 29 04:15 : client: [14] closed
+Sep 29 04:15 : client: [15] opened from 127.0.0.1:35444
+Sep 29 04:15 : client: [15] closed
+Sep 29 04:15 : client: [16] opened from 127.0.0.1:35446
+Sep 29 04:15 : client: [16] closed
+Sep 29 04:15 : client: [17] opened from 127.0.0.1:35448
+Sep 29 04:15 : client: [17] closed
+Sep 29 04:15 : client: [18] opened from 127.0.0.1:35450
+Sep 29 04:16 : client: [18] closed
+Sep 29 04:16 : client: [19] opened from 127.0.0.1:35534
+Sep 29 04:16 : client: [19] closed
+Sep 29 04:16 : client: [20] opened from 127.0.0.1:35536
+Sep 29 04:18 : client: [20] closed
+Sep 29 04:18 : client: [21] opened from 127.0.0.1:35588
+Sep 29 04:18 : client: [21] closed
+Sep 29 04:18 : client: [22] opened from 127.0.0.1:35590
+Sep 29 04:18 : client: [22] closed
+Sep 29 04:18 : client: [23] opened from 127.0.0.1:35616
+Sep 29 04:20 : client: [23] closed
+Sep 29 04:20 : client: [24] opened from 127.0.0.1:35678
+Sep 29 04:20 : client: [24] closed
+Sep 29 04:20 : client: [25] opened from 127.0.0.1:35680
+Sep 29 04:22 : client: [25] closed
+Sep 29 04:22 : client: [26] opened from 127.0.0.1:35682
+Sep 29 04:23 : client: [26] closed
+Sep 29 04:23 : client: [27] opened from 127.0.0.1:35684
+Sep 29 04:24 : client: [27] closed
+Sep 29 04:24 : client: [28] opened from 127.0.0.1:35686
+Sep 29 04:24 : client: [28] closed
+Sep 29 04:24 : client: [29] opened from 127.0.0.1:35688
+Sep 29 04:24 : client: [29] closed
+Sep 29 04:24 : client: [30] opened from 127.0.0.1:35690
+Sep 29 04:32 : client: [30] closed
+Sep 29 04:32 : client: [31] opened from 127.0.0.1:35812
+Sep 29 04:32 : client: [31] closed
+Sep 29 04:32 : client: [32] opened from 127.0.0.1:35814
+Sep 29 04:32 : client: [32] closed
+Sep 29 04:32 : client: [33] opened from 127.0.0.1:35816
+Sep 29 04:32 : client: [33] closed
+Sep 29 04:32 : client: [34] opened from 127.0.0.1:35818
+Sep 29 15:37 : client: [34] closed
+Sep 29 15:37 : client: [35] opened from 127.0.0.1:36246
+Sep 29 15:37 : client: [35] closed
+Sep 29 15:37 : client: [36] opened from 127.0.0.1:36248
+Sep 29 16:51 : avahi: Client Disconnected, will reconnect shortly
+Sep 29 16:51 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 29 16:51 : client: [36] closed
+Sep 29 16:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 29 16:51 : client: [0] opened from 127.0.0.1:47528
+Sep 29 16:51 : client: [0] closed
+Sep 29 16:51 : client: [1] opened from 127.0.0.1:47530
+Sep 29 16:51 : client: [1] closed
+Sep 29 16:51 : client: [2] opened from 127.0.0.1:47532
+Sep 29 17:06 : client: [2] closed
+Sep 29 17:06 : client: [3] opened from 127.0.0.1:47814
+Sep 29 17:06 : client: [3] closed
+Sep 29 17:06 : client: [4] opened from 127.0.0.1:47816
+Sep 29 19:17 : client: [4] closed
+Sep 29 19:17 : client: [5] opened from 127.0.0.1:49294
+Sep 29 19:17 : client: [5] closed
+Sep 29 19:17 : client: [6] opened from 127.0.0.1:49296
+Sep 29 20:47 : client: [6] closed
+Sep 29 20:47 : client: [7] opened from 127.0.0.1:49542
+Sep 29 20:47 : client: [7] closed
+Sep 30 01:47 : client: [8] opened from 127.0.0.1:49544
+Sep 30 01:47 : client: [8] closed
+Sep 30 01:47 : client: [9] opened from 127.0.0.1:49548
+Sep 30 01:47 : client: [9] closed
+Sep 30 01:47 : client: [10] opened from 127.0.0.1:49550
+Sep 30 04:24 : client: [10] closed
+Sep 30 04:24 : client: [11] opened from 127.0.0.1:50290
+Sep 30 04:24 : client: [11] closed
+Sep 30 04:24 : client: [12] opened from 127.0.0.1:50292
+Sep 30 16:01 : client: [12] closed
+Sep 30 16:01 : client: [13] opened from 127.0.0.1:50308
+Sep 30 16:01 : client: [13] closed
+Sep 30 16:01 : client: [14] opened from 127.0.0.1:50310
+Sep 30 23:50 : client: [14] closed
+Sep 30 23:50 : client: [15] opened from 127.0.0.1:53782
+Sep 30 23:50 : client: [15] closed
+Sep 30 23:50 : client: [16] opened from 127.0.0.1:53784
+Sep 30 23:50 : client: [16] closed
+Sep 30 23:50 : client: [17] opened from 127.0.0.1:53786
+Oct 01 00:27 : client: [17] closed
+Oct 01 00:27 : client: [18] opened from 127.0.0.1:54104
+Oct 01 00:29 : client: [18] closed
+Oct 01 00:29 : client: [19] opened from 127.0.0.1:54106
+Oct 01 00:30 : client: [19] closed
+Oct 01 00:30 : client: [20] opened from 127.0.0.1:54108
+Oct 01 00:30 : client: [20] closed
+Oct 01 00:30 : client: [21] opened from 127.0.0.1:54110
+Oct 01 00:30 : client: [21] closed
+Oct 01 00:30 : client: [22] opened from 127.0.0.1:54112
+Oct 01 00:31 : client: [22] closed
+Oct 01 00:31 : client: [23] opened from 127.0.0.1:54114
+Oct 01 00:31 : client: [23] closed
+Oct 01 00:31 : client: [24] opened from 127.0.0.1:54116
+Oct 01 00:31 : client: [24] closed
+Oct 01 00:31 : client: [25] opened from 127.0.0.1:54118
+Oct 01 00:31 : client: [25] closed
+Oct 01 00:31 : client: [26] opened from 127.0.0.1:54120
+Oct 01 00:32 : client: [26] closed
+Oct 01 00:32 : client: [27] opened from 127.0.0.1:54122
+Oct 01 02:07 : client: [27] closed
+Oct 01 02:07 : client: [28] opened from 127.0.0.1:56184
+Oct 01 02:28 : client: [28] closed
+Oct 01 02:28 : client: [29] opened from 127.0.0.1:56514
+Oct 01 02:32 : client: [29] closed
+Oct 01 02:32 : client: [30] opened from 127.0.0.1:56670
+Oct 01 02:32 : client: [30] closed
+Oct 01 02:32 : client: [31] opened from 127.0.0.1:56672
+Oct 01 02:33 : client: [31] closed
+Oct 01 02:33 : client: [32] opened from 127.0.0.1:56674
+Oct 01 02:33 : client: [32] closed
+Oct 01 02:33 : client: [33] opened from 127.0.0.1:56676
+Oct 01 02:33 : client: [33] closed
+Oct 01 02:33 : client: [34] opened from 127.0.0.1:56678
+Oct 01 02:33 : client: [34] closed
+Oct 01 02:33 : client: [35] opened from 127.0.0.1:56680
+Oct 01 02:33 : client: [35] closed
+Oct 01 02:33 : client: [36] opened from 127.0.0.1:56682
+Oct 01 02:49 : client: [36] closed
+Oct 01 02:49 : client: [37] opened from 127.0.0.1:56812
+Oct 01 02:49 : client: [37] closed
+Oct 01 02:49 : client: [38] opened from 127.0.0.1:56814
+Oct 01 07:47 : client: [38] closed
+Oct 01 07:47 : client: [39] opened from 127.0.0.1:58408
+Oct 01 07:47 : client: [39] closed
+Oct 01 07:47 : client: [40] opened from 127.0.0.1:58410
+Oct 01 07:47 : client: [40] closed
+Oct 01 07:47 : client: [41] opened from 127.0.0.1:58412
+Oct 01 15:52 : client: [41] closed
+Oct 01 15:52 : client: [42] opened from 127.0.0.1:58462
+Oct 01 15:52 : client: [42] closed
+Oct 01 15:52 : client: [43] opened from 127.0.0.1:58464
+Oct 01 18:07 : client: [43] closed
+Oct 01 18:07 : client: [44] opened from 127.0.0.1:59486
+Oct 01 18:08 : client: [44] closed
+Oct 01 18:08 : client: [45] opened from 127.0.0.1:59488
+Oct 01 18:13 : client: [46] opened from 127.0.0.1:59522
+Oct 01 18:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 18:17 : player: played "Cage the Elephant/7 - Drones In The Valley.flac"
+Oct 01 18:21 : player: played "Steve Vai/Paradise and Warfare/02 - Erotic Nightmares.mp3"
+Oct 01 18:25 : player: played "Steve Vai/Modern Primitive/03 - Mighty Messengers.mp3"
+Oct 01 18:30 : player: played "Steve Vai/Modern Primitive/01 - Bop!.mp3"
+Oct 01 18:47 : player: played "The Pretty Reckless/Going to Hell/11 - Fucked Up World.mp3"
+Oct 01 18:54 : client: [45] closed
+Oct 01 18:54 : client: [47] opened from 127.0.0.1:60026
+Oct 01 19:00 : player: played "Red Hot Chili Peppers/Californication/05 - Get On Top.mp3"
+Oct 01 19:03 : client: [46] closed
+Oct 01 19:03 : client: [47] closed
+Oct 01 19:03 : client: [48] opened from 127.0.0.1:60246
+Oct 01 19:04 : client: [48] closed
+Oct 01 19:04 : client: [49] opened from 127.0.0.1:60248
+Oct 01 19:04 : player: played "Cage the Elephant/11 - Free Love.flac"
+Oct 01 19:05 : client: [50] opened from 127.0.0.1:60262
+Oct 01 19:05 : client: [50] closed
+Oct 01 19:05 : client: [51] opened from 127.0.0.1:60264
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 01 19:05 : exception: Failed to open "Alsa for audio sound card" [alsa]
+Oct 01 19:05 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 01 19:05 : client: [51] closed
+Oct 01 19:05 : client: [52] opened from 127.0.0.1:60266
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 01 19:05 : exception: Failed to open "Alsa for audio sound card" [alsa]
+Oct 01 19:05 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 01 19:05 : client: [52] closed
+Oct 01 19:05 : client: [53] opened from 127.0.0.1:60268
+Oct 01 19:05 : client: [53] closed
+Oct 01 19:05 : client: [54] opened from 127.0.0.1:60270
+Oct 01 19:05 : client: [54] closed
+Oct 01 19:05 : client: [55] opened from 127.0.0.1:60272
+Oct 01 19:05 : client: [55] closed
+Oct 01 19:05 : client: [56] opened from 127.0.0.1:60274
+Oct 01 19:05 : client: [56] closed
+Oct 01 19:05 : client: [57] opened from 127.0.0.1:60276
+Oct 01 19:05 : client: [57] closed
+Oct 01 19:05 : client: [58] opened from 127.0.0.1:60278
+Oct 01 19:05 : client: [58] closed
+Oct 01 19:05 : client: [59] opened from 127.0.0.1:60280
+Oct 01 19:05 : client: [59] closed
+Oct 01 19:05 : client: [60] opened from 127.0.0.1:60282
+Oct 01 19:05 : client: [60] closed
+Oct 01 19:06 : client: [49] closed
+Oct 01 19:06 : client: [61] opened from 127.0.0.1:60284
+Oct 01 19:06 : client: [61] closed
+Oct 01 19:06 : client: [62] opened from 127.0.0.1:60286
+Oct 01 19:08 : player: played "The Pretty Reckless/Going to Hell/14 - Going To Hell (Live Acoustic).mp3"
+Oct 01 19:08 : client: [63] opened from 127.0.0.1:60296
+Oct 01 19:08 : player: played "The Pretty Reckless/Going to Hell/11 - Fucked Up World.mp3"
+Oct 01 19:08 : client: [63] closed
+Oct 01 20:38 : client: [62] closed
+Oct 01 20:38 : client: [64] opened from 127.0.0.1:60326
+Oct 01 20:39 : client: [64] closed
+Oct 01 20:39 : client: [65] opened from 127.0.0.1:60328
+Oct 01 20:40 : client: [65] closed
+Oct 01 20:40 : client: [66] opened from 127.0.0.1:60330
+Oct 01 20:40 : client: [66] closed
+Oct 01 20:40 : client: [67] opened from 127.0.0.1:60332
+Oct 01 20:42 : client: [67] closed
+Oct 01 20:42 : client: [68] opened from 127.0.0.1:60334
+Oct 01 20:42 : client: [68] closed
+Oct 01 20:42 : client: [69] opened from 127.0.0.1:60336
+Oct 01 20:42 : client: [69] closed
+Oct 01 20:43 : client: [70] opened from 127.0.0.1:60338
+Oct 01 20:43 : client: [70] closed
+Oct 01 20:43 : client: [71] opened from 127.0.0.1:60340
+Oct 01 20:44 : client: [71] closed
+Oct 01 20:44 : client: [72] opened from 127.0.0.1:60342
+Oct 01 20:44 : avahi: Client Disconnected, will reconnect shortly
+Oct 01 20:44 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 01 20:44 : client: [72] closed
+Oct 01 20:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 20:45 : client: [0] opened from 127.0.0.1:33296
+Oct 01 20:45 : client: [0] closed
+Oct 01 20:45 : client: [1] opened from 127.0.0.1:33298
+Oct 01 20:47 : client: [1] closed
+Oct 01 20:47 : client: [2] opened from 127.0.0.1:33300
+Oct 01 20:49 : client: [2] closed
+Oct 01 20:49 : client: [3] opened from 127.0.0.1:33302
+Oct 01 20:49 : client: [4] opened from 127.0.0.1:33304
+Oct 01 20:49 : client: [4] closed
+Oct 01 20:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 20:50 : client: [5] opened from 127.0.0.1:33308
+Oct 01 20:53 : player: played "The Pretty Reckless/Going to Hell/11 - Fucked Up World.mp3"
+Oct 01 20:53 : client: [5] closed
+Oct 01 20:53 : client: [6] opened from 127.0.0.1:33374
+Oct 01 20:57 : player: played "The Pretty Reckless/Going to Hell/03 - Heaven Knows.mp3"
+Oct 01 21:01 : player: played "P.O.D./Satellite/06 - Satellite.mp3"
+Oct 01 21:07 : player: played "Muse/Drones/03 - Psycho.mp3"
+Oct 01 21:11 : player: played "Muse/Drones/04 - Mercy.mp3"
+Oct 01 23:42 : client: [6] closed
+Oct 01 23:43 : client: [7] opened from 127.0.0.1:34640
+Oct 02 03:11 : client: [8] opened from 127.0.0.1:35612
+Oct 02 03:12 : client: [7] closed
+Oct 02 03:14 : player: played "Muse/Drones/05 - Reapers.mp3"
+Oct 02 14:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 02 14:46 : client: [0] opened from 127.0.0.1:54294
+Oct 02 14:46 : client: [0] closed
+Oct 02 14:46 : client: [1] opened from 127.0.0.1:54296
+Oct 02 16:47 : client: [2] opened from 127.0.0.1:54790
+Oct 02 16:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 02 16:47 : client: [2] closed
+Oct 02 16:47 : client: [3] opened from 127.0.0.1:54792
+Oct 02 16:47 : client: [3] closed
+Oct 02 16:47 : client: [4] opened from 127.0.0.1:54794
+Oct 02 16:47 : client: [4] closed
+Oct 02 16:47 : client: [5] opened from 127.0.0.1:54796
+Oct 02 16:47 : client: [5] closed
+Oct 02 16:47 : client: [6] opened from 127.0.0.1:54798
+Oct 02 16:47 : client: [6] closed
+Oct 02 16:52 : player: played "Muse/Drones/01 - Dead Inside.mp3"
+Oct 02 16:52 : client: [7] opened from 127.0.0.1:54952
+Oct 02 16:52 : client: [7] closed
+Oct 02 17:06 : client: [8] opened from 127.0.0.1:55022
+Oct 02 17:06 : client: [8] closed
+Oct 02 17:11 : player: played "Muse/Drones/03 - Psycho.mp3"
+Oct 02 17:17 : player: played "Muse/Drones/05 - Reapers.mp3"
+Oct 02 17:19 : client: [9] opened from 127.0.0.1:55590
+Oct 02 17:19 : client: [9] closed
+Oct 02 17:19 : client: [10] opened from 127.0.0.1:55592
+Oct 02 17:19 : client: [10] closed
+Oct 02 17:19 : client: [11] opened from 127.0.0.1:55594
+Oct 02 17:19 : client: [11] closed
+Oct 02 17:19 : client: [12] opened from 127.0.0.1:55596
+Oct 02 17:19 : client: [12] closed
+Oct 02 17:23 : client: [13] opened from 127.0.0.1:55618
+Oct 02 17:23 : client: [13] closed
+Oct 02 17:23 : client: [14] opened from 127.0.0.1:55620
+Oct 02 17:23 : client: [14] closed
+Oct 02 17:23 : client: [15] opened from 127.0.0.1:55622
+Oct 02 17:23 : client: [15] closed
+Oct 02 17:26 : player: played "Cage the Elephant/11 - Free Love.flac"
+Oct 02 17:29 : player: played "Cage the Elephant/7 - Drones In The Valley.flac"
+Oct 02 17:33 : player: played "Steve Vai/Paradise and Warfare/02 - Erotic Nightmares.mp3"
+Oct 02 17:37 : player: played "Steve Vai/Modern Primitive/03 - Mighty Messengers.mp3"
+Oct 02 17:43 : player: played "Steve Vai/Modern Primitive/01 - Bop!.mp3"
+Oct 02 17:48 : player: played "Steve Vai/Alien Love Secrets/07 - Tender Surrender.mp3"
+Oct 02 17:52 : player: played "The Pretty Reckless/Going to Hell/15 - Sweet Things (Acoustic).mp3"
+Oct 02 17:55 : player: played "The Pretty Reckless/Going to Hell/14 - Going To Hell (Live Acoustic).mp3"
+Oct 02 17:57 : client: [16] opened from 127.0.0.1:55858
+Oct 02 17:57 : player: played "The Pretty Reckless/Going to Hell/11 - Fucked Up World.mp3"
+Oct 02 17:57 : client: [16] closed

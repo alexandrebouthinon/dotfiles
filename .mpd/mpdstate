@@ -1,0 +1,37 @@
+sw_volume: 100
+audio_device_state:1:Alsa for audio sound card
+audio_device_state:1:my_fifo
+state: stop
+current: 14
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Bob Marley/Greatest Hits/1 - Positive Vibration.mp3
+1:P.O.D./SoCal Sessions [Acoustic]/06 - Alive.mp3
+2:P.O.D./SoCal Sessions [Acoustic]/08 - It Can't Rain Everyday.mp3
+3:P.O.D./SoCal Sessions [Acoustic]/09 - Lost In Forever.mp3
+4:Breaking Benjamin/Dear Agony/5 - Hopeless.flac
+5:Red Hot Chili Peppers/Californication/05 - Get On Top.mp3
+6:Cage the Elephant/11 - Free Love.flac
+7:Cage the Elephant/7 - Drones In The Valley.flac
+8:Steve Vai/Paradise and Warfare/02 - Erotic Nightmares.mp3
+9:Steve Vai/Modern Primitive/03 - Mighty Messengers.mp3
+10:Steve Vai/Modern Primitive/01 - Bop!.mp3
+11:Steve Vai/Alien Love Secrets/07 - Tender Surrender.mp3
+12:The Pretty Reckless/Going to Hell/15 - Sweet Things (Acoustic).mp3
+13:The Pretty Reckless/Going to Hell/14 - Going To Hell (Live Acoustic).mp3
+14:The Pretty Reckless/Going to Hell/11 - Fucked Up World.mp3
+15:The Pretty Reckless/Going to Hell/03 - Heaven Knows.mp3
+16:P.O.D./Satellite/06 - Satellite.mp3
+17:Ginkobiloba/Mamacita/06 - La Llorona.mp3
+18:Ginkobiloba/Mamacita/03 - Ernesto.mp3
+19:Muse/The Resistance/02 - Resistance.mp3
+20:Muse/Drones/01 - Dead Inside.mp3
+21:Muse/Drones/03 - Psycho.mp3
+22:Muse/Drones/05 - Reapers.mp3
+playlist_end

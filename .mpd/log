@@ -1,0 +1,162 @@
+May 15 18:45 : update: added /Smoove - I'm A Man.mp3
+May 15 18:45 : config: option 'device' on line 14 was not recognized
+May 15 18:45 : config: option 'mixer_device' on line 16 was not recognized
+May 15 18:45 : config: option 'mixer_control' on line 17 was not recognized
+May 15 18:45 : config: option 'mixer_index' on line 18 was not recognized
+May 15 18:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 18:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 18:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 18:45 : exception: Failed to enable output "My pulse Device" [pulse]
+May 15 18:45 : exception: nested: pa_context_connect() has failed: Connection refused
+May 15 18:45 : exception: Failed to enable output "My pulse EQ" [pulse]
+May 15 18:45 : exception: nested: pa_context_connect() has failed: Connection refused
+May 15 18:45 : exception: Failed to enable output "MPD" [pulse]
+May 15 18:45 : exception: nested: pa_context_connect() has failed: Connection refused
+May 15 18:45 : config: option 'device' on line 14 was not recognized
+May 15 18:45 : config: option 'mixer_device' on line 16 was not recognized
+May 15 18:45 : config: option 'mixer_control' on line 17 was not recognized
+May 15 18:45 : config: option 'mixer_index' on line 18 was not recognized
+May 15 18:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 18:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 18:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 18:45 : exception: Failed to enable output "My pulse EQ" [pulse]
+May 15 18:45 : exception: nested: pa_context_connect() has failed: Connection refused
+May 15 18:45 : exception: Failed to enable output "My pulse Device" [pulse]
+May 15 18:45 : exception: nested: pa_context_connect() has failed: Connection refused
+May 15 18:45 : exception: Failed to enable output "MPD" [pulse]
+May 15 18:45 : exception: nested: pa_context_connect() has failed: Connection refused
+May 15 18:45 : client: [0] opened from [::1]:42204
+May 15 18:45 : client: [0] closed
+May 15 18:46 : client: [1] opened from [::1]:42322
+May 15 18:46 : client: [1] closed
+May 15 18:48 : config: option 'device' on line 14 was not recognized
+May 15 18:48 : config: option 'mixer_device' on line 16 was not recognized
+May 15 18:48 : config: option 'mixer_control' on line 17 was not recognized
+May 15 18:48 : config: option 'mixer_index' on line 18 was not recognized
+May 15 18:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 18:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 18:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 18:48 : client: [0] opened from [::1]:36376
+May 15 18:48 : client: [0] closed
+May 15 18:48 : client: [1] opened from [::1]:36378
+May 15 18:48 : client: [1] closed
+May 15 18:48 : client: [2] opened from [::1]:36380
+May 15 18:48 : client: [2] closed
+May 15 18:48 : client: [3] opened from [::1]:36382
+May 15 18:48 : client: [3] closed
+May 15 18:48 : client: [4] opened from [::1]:36384
+May 15 18:48 : client: [4] closed
+May 15 18:48 : client: [5] opened from [::1]:36386
+May 15 18:48 : client: [5] closed
+May 15 18:48 : client: [6] opened from [::1]:36388
+May 15 18:48 : client: [6] closed
+May 15 18:49 : client: [7] opened from [::1]:36390
+May 15 18:49 : client: [7] closed
+May 15 18:49 : client: [8] opened from [::1]:36392
+May 15 18:49 : client: [8] closed
+May 15 18:49 : client: [9] opened from [::1]:36394
+May 15 18:49 : client: [9] closed
+May 15 18:49 : client: [10] opened from [::1]:36396
+May 15 18:49 : client: [10] closed
+May 15 18:49 : client: [11] opened from [::1]:36398
+May 15 18:49 : client: [11] closed
+May 15 18:49 : client: [12] opened from [::1]:36400
+May 15 18:49 : client: [12] closed
+May 15 18:49 : client: [13] opened from [::1]:36402
+May 15 18:49 : client: [13] closed
+May 15 18:49 : client: [14] opened from [::1]:36404
+May 15 18:49 : client: [14] closed
+May 15 18:49 : client: [15] opened from [::1]:36406
+May 15 18:49 : client: [15] closed
+May 15 18:49 : client: [16] opened from [::1]:36408
+May 15 18:49 : client: [16] closed
+May 15 18:49 : client: [17] opened from [::1]:36410
+May 15 18:49 : client: [18] opened from [::1]:36412
+May 15 18:49 : client: [18] closed
+May 15 18:49 : client: [19] opened from [::1]:36414
+May 15 18:49 : client: [19] closed
+May 15 18:50 : client: [20] opened from [::1]:36416
+May 15 18:50 : client: [20] closed
+May 15 18:50 : client: [17] closed
+May 15 18:50 : client: [21] opened from [::1]:36418
+May 15 18:50 : client: [21] closed
+May 15 18:50 : client: [22] opened from [::1]:36420
+May 15 18:50 : client: [22] closed
+May 15 18:50 : client: [23] opened from [::1]:36422
+May 15 18:50 : client: [23] closed
+May 15 18:50 : client: [24] opened from [::1]:36424
+May 15 18:50 : client: [24] closed
+May 15 18:50 : client: [25] opened from [::1]:36426
+May 15 18:50 : client: [25] closed
+May 15 18:50 : client: [26] opened from [::1]:36428
+May 15 18:50 : client: [26] closed
+May 15 18:50 : config: option 'device' on line 14 was not recognized
+May 15 18:50 : config: option 'mixer_device' on line 16 was not recognized
+May 15 18:50 : config: option 'mixer_control' on line 17 was not recognized
+May 15 18:50 : config: option 'mixer_index' on line 18 was not recognized
+May 15 18:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 18:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 18:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 18:50 : client: [0] opened from [::1]:36438
+May 15 18:50 : client: [0] closed
+May 15 18:51 : client: [1] opened from [::1]:36440
+May 15 18:51 : client: [1] closed
+May 15 18:51 : client: [2] opened from [::1]:36442
+May 15 18:51 : client: [2] closed
+May 15 18:51 : client: [3] opened from [::1]:36444
+May 15 18:51 : client: [3] closed
+May 15 18:51 : client: [4] opened from [::1]:36446
+May 15 18:51 : client: [4] closed
+May 15 18:51 : client: [5] opened from [::1]:36448
+May 15 18:51 : client: [5] closed
+May 15 18:51 : client: [6] opened from [::1]:36450
+May 15 18:51 : client: [6] closed
+May 15 18:51 : client: [7] opened from [::1]:36452
+May 15 18:51 : client: [7] closed
+May 15 18:51 : client: [8] opened from [::1]:36456
+May 15 18:51 : client: [8] closed
+May 15 18:51 : client: [9] opened from [::1]:36458
+May 15 18:51 : client: [9] closed
+May 15 18:51 : client: [10] opened from [::1]:36472
+May 15 18:51 : client: [10] closed
+May 15 18:52 : client: [11] opened from [::1]:36500
+May 15 18:52 : client: [11] closed
+May 15 18:52 : client: [12] opened from [::1]:36502
+May 15 18:52 : client: [12] closed
+May 15 18:52 : client: [13] opened from [::1]:36504
+May 15 18:52 : client: [13] closed
+May 15 18:52 : client: [14] opened from [::1]:36506
+May 15 18:52 : client: [14] closed
+May 15 18:52 : client: [15] opened from [::1]:36508
+May 15 18:52 : client: [15] closed
+May 15 18:52 : client: [16] opened from [::1]:36510
+May 15 18:52 : client: [16] closed
+May 15 18:52 : client: [17] opened from [::1]:36516
+May 15 18:52 : client: [17] closed
+May 15 18:52 : client: [18] opened from [::1]:36520
+May 15 18:52 : client: [18] closed
+May 15 18:52 : client: [19] opened from [::1]:36522
+May 15 18:52 : client: [19] closed
+May 15 18:52 : client: [20] opened from [::1]:36526
+May 15 18:52 : client: [20] closed
+May 15 18:53 : client: [21] opened from [::1]:36528
+May 15 18:53 : client: [21] closed
+May 15 18:53 : client: [22] opened from [::1]:36530
+May 15 18:53 : client: [22] closed
+May 15 18:53 : client: [23] opened from [::1]:36532
+May 15 18:53 : client: [23] closed
+May 15 18:53 : client: [24] opened from [::1]:36534
+May 15 18:53 : client: [24] closed
+May 15 18:53 : client: [25] opened from [::1]:36536
+May 15 18:53 : client: [25] closed
+May 15 18:53 : client: [26] opened from [::1]:36538
+May 15 18:53 : client: [26] closed
+May 15 18:53 : client: [27] opened from [::1]:36540
+May 15 18:53 : client: [27] closed
+May 15 18:53 : config: option 'device' on line 14 was not recognized
+May 15 18:53 : config: option 'mixer_device' on line 16 was not recognized
+May 15 18:53 : config: option 'mixer_control' on line 17 was not recognized
+May 15 18:53 : config: option 'mixer_index' on line 18 was not recognized
+May 15 18:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 18:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 18:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
