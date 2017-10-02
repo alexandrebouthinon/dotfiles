@@ -1,0 +1,8 @@
+[user]
+	name = Alexandre Bouthinon
+	email = bouthinon.alexandre@gmail.com
+[alias]
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[core]
+	autocrlf = input
+	safecrlf = true
