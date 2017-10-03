@@ -123,7 +123,7 @@ module-margin-right = 2
 
 font-0 = Monaco for Powerline:pixelsize=12;2
 font-1 = unifont:size=10;2
-;font-2 = siji:pixelsize=10;3
+font-2 = siji:pixelsize=10;3
 font-3 = FontAwesome:pixelsize=14;2
 
 modules-left = mpd
