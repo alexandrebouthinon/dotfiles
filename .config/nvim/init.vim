@@ -80,7 +80,6 @@ autocmd! filetype make setlocal noexpandtab                " In Makefiles DO NOT
 
 autocmd BufWritePre * call TrimWhitespace() " Remove trailing whitespace when saving
 autocmd! BufReadPost * call SetCursorPosition()
-autocmd! BufWritePost * Neomake
 
 set ff=unix
 

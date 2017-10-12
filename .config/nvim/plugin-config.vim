@@ -21,7 +21,7 @@ let g:lightline = {
       \ 'colorscheme': 'base15-tomorrow',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste'  ],
-      \             [ 'gitbranch', 'neomake', 'readonly', 'filename', 'modified'  ] ]
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified'  ] ]
       \ },
       \ 'component_function': {
       \   'gitbranch': 'fugitive#head',
