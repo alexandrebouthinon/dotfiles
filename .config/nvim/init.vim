@@ -25,15 +25,9 @@ if (has("termguicolors"))
 endif
 
 " Colorscheme
-
-" Onedark Conf
-let g:onedark_color_overrides = {
-\ "black": {"gui": "#1D1F21", "cterm": "235", "cterm16": "0" }
-\}
-let g:onedark_terminal_italics = 1 " I love italic for comments
-
+let base16colorspace=256
 set background=dark
-colorscheme onedark
+colorscheme base16-tomorrow-night
 
 
 set mouse=a
