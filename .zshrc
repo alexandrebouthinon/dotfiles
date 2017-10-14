@@ -88,7 +88,7 @@ alias fix-dual-monitor="sh ~/.config/scripts/dual-screen-agencement.sh"
 alias only-hdmi="sh ~/.config/scripts/only-hdmi.sh"
 alias vi="nvim"
 alias vim="nvim"
-alias neofetch="clear && echo && echo && neofetch"
+alias neofetch="clear && echo && echo && neofetch --ascii_distro linux --gtk2 off --gtk3 off --gap 1"
 
 # Run X automatically
 
