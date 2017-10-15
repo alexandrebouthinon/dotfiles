@@ -386,10 +386,10 @@ type = internal/date
 interval = 1
 
 date = "%d/%m/%y"
-date-alt = "%d/%m/%y"
+date-alt = "%A, %B %d, %Y"
 
-time = "%H:%M:%S"
-time-alt =  %H:%M
+time = "%H:%M"
+time-alt =  %H:%M:%S
 
 ;format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
