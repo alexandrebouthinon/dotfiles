@@ -19,8 +19,8 @@ font pango: hack, Awesome 10
 #..........
 # Look
 #..........
-gaps inner 40
-gaps outer 8
+gaps inner 15
+gaps outer 6
 
 new_window pixel 2
 new_float pixel 2

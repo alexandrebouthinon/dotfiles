@@ -18,7 +18,7 @@ let g:ctrlp_working_path_mode = 0
 let g:indentLine_char = ''
 
 let g:lightline = {
-      \ 'colorscheme': 'base15-tomorrow',
+      \ 'colorscheme': 'base16-tomorrow',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste'  ],
       \             [ 'gitbranch', 'readonly', 'filename', 'modified'  ] ]

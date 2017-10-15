@@ -73,7 +73,7 @@ font-3 = FontAwesome:pixelsize=14;2
 
 modules-left =  i3 xwindow
 modules-center =
-modules-right = backlight volume wlan battery date powermenu
+modules-right = gmail backlight volume wlan battery date powermenu
 ;modules-right = backlight volume github pkg wlan vpncheck pptpcheck battery date powermenu
 ;modules-right = backlight volume pkg wlan vpncheck battery date powermenu
 
@@ -165,6 +165,13 @@ label-mounted = "%{F#5b5b5b}%{F-} %percentage_used%%"
 
 ;label-unmounted = %mountpoint%: not mounted
 ;label-unmounted-foreground = ${colors.foreground-alt}
+
+
+[module/gmail]
+type = custom/script
+exec = ~/.config/polybar/gmail/launch.py
+tail = true
+click-left = xdg-open https://mail.google.com
 
 [module/bspwm]
 type = internal/bspwm
