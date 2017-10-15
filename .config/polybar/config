@@ -64,7 +64,7 @@ spacing = 1
 padding-left = 0
 padding-right = 2
 module-margin-left = 1
-module-margin-right = 2
+module-margin-right = 3
 
 font-0 = Monaco for Powerline:pixelsize=12;2
 font-1 = unifont:size=10;2
