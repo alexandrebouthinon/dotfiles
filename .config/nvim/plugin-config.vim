@@ -33,7 +33,7 @@ let g:deoplete#sources#clang#clang_header = '/usr/include/clang'
 " Rust conf
 let g:deoplete#sources#rust#racer_binary='/home/alex/.cargo/bin/racer'
 let g:deoplete#sources#rust#rust_source_path='/usr/lib/rustlib/src'
-
+set completeopt -=preview
 
 """ NERDCommenter
 " Add spaces after comment delimiters by default
