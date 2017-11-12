@@ -182,6 +182,15 @@ bindsym $mod+Shift+underscore move container to workspace $tag8
 bindsym $mod+Shift+ccedilla move container to workspace $tag9
 bindsym $mod+Shift+agrave move container to workspace $tag10
 
+# Open applications in dedicated workspace
+assign [class="Firefox"] $tag1
+assign [class="Termite"] $tag2
+assign [class="Atom"] $tag3
+assign [class="Spotify"] $tag4
+assign [class="Moeditor"] $tag5
+assign [class="Steam"] $tag6
+
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
