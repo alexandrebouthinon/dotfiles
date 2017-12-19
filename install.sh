@@ -104,5 +104,4 @@ yaourt -Syua spotify
 yaourt -Syua staruml
 yaourt -Syua atom
 yaourt -Syua vlc
-yaourt -Syua neovim
 #-----------------------------------------------------------------#
