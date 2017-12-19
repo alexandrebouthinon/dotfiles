@@ -27,7 +27,7 @@ endif
 " Colorscheme
 let base16colorspace=256
 set background=dark
-colorscheme base16-tomorrow-night
+colorscheme onedark
 
 
 set mouse=a
