@@ -66,6 +66,9 @@ ln ./.config/scripts/* $HOME/.config/.config/scripts/
 ## termite
 ln ./.config/termite/config $HOME/.config/termite/config
 #-----------------------------------------------------------------#
+## nvim
+ln ./.config/nvim/* $HOME/.config/nvim/
+#-----------------------------------------------------------------#
 
 # < .mpd >
 ln ./.mpd/* $HOME/.mpd
@@ -78,6 +81,7 @@ ln ./.ncmpcpp/config $HOME/.ncmpcpp/fontconfig
 # < .weechat >
 ln ./.weechat/weechat.conf $HOME/.weechat/weechat.config
 #-----------------------------------------------------------------#
+
 
 # Root directory config files
 
