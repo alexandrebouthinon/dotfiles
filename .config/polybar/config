@@ -128,7 +128,7 @@ font-3 = FontAwesome:pixelsize=14;2
 
 modules-left = mpd
 modules-center = networkspeedup networkspeeddown
-modules-right = temperature filesystem-slash filesystem-home cpu memory
+modules-right = temperature filesystem-slash cpu memory
 
 
 [module/xwindow]
