@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin/clangd:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin/clangd:/opt/intellig-idea:$PATH
 
 # Path to your oh-my-zsh installation.
   export ZSH=/home/alex/.oh-my-zsh
