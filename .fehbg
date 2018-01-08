@@ -1,2 +1,2 @@
 #!/bin/sh
-exec 'feh' '--bg-scale' '/home/alex/.local/share/wallpapers/enki.jpg' 
+'feh' '--bg-scale' '/home/alex/.local/share/wallpapers/enki.jpg' 
