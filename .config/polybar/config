@@ -126,7 +126,7 @@ font-1 = unifont:size=10;2
 font-2 = siji:pixelsize=10;3
 font-3 = FontAwesome:pixelsize=14;2
 
-modules-left = mpd
+modules-left = spotify
 modules-center = networkspeedup networkspeeddown
 modules-right = temperature filesystem-slash cpu memory
 
@@ -536,3 +536,8 @@ menu-3-0 = déconnexion
 menu-3-0-exec = i3-msg exit
 ; vim:ft=dosini
 
+[module/spotify]
+type = custom/script
+exec = ~/.config/polybar/spotify.sh %artist% - %title%
+tail = true
+interval = 2
