@@ -52,6 +52,8 @@ offset-y = 0
 background = ${colors.background}
 foreground = ${colors.foreground}
 
+locale = fr_FR.UTF-8
+
 overline-size = 0
 overline-color = #f00
 underline-size = 2
