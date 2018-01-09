@@ -147,7 +147,7 @@ bindsym $mod+q focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-set $tag1 "1:"
+set $tag1 "1:"
 set $tag2 "2:"
 set $tag3 "3:"
 set $tag4 "4:"
@@ -186,7 +186,7 @@ bindsym $mod+Shift+agrave move container to workspace $tag10
 assign [class="Firefox"] $tag1
 assign [class="Termite"] $tag2
 assign [class="Atom"] $tag3
-assign [class="Spotify"] $tag4
+for_window [class="Spotify"] move to workspace $tag4
 assign [class="Moeditor"] $tag5
 assign [class="Steam"] $tag6
 
