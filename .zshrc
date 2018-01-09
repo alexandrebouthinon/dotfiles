@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin/clangd:/opt/intellig-idea:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin/clangd:/opt/intellig-idea:$HOME/.config/scripts:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/alex/.oh-my-zsh
+export ZSH=/home/alex/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -84,20 +84,22 @@ export BROWSER='/usr/bin/firefox'
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias fix-dual-monitor="sh ~/.config/scripts/dual-screen-agencement.sh"
-alias only-hdmi="sh ~/.config/scripts/only-hdmi.sh"
 alias vi="nvim"
 alias vim="nvim"
 alias neofetch="clear && echo && echo && neofetch --ascii_distro linux --gtk2 off --gtk3 off --gap 1"
 
+# Add transfer.sh script
 transfer() { if [ $# -eq 0 ]; then echo -e "No arguments specified. Usage:\necho transfer /tmp/test.md\ncat /tmp/test.md | transfer test.md"; return 1; fi
   tmpfile=$( mktemp -t transferXXX ); if tty -s; then basefile=$(basename "$1" | sed -e 's/[^a-zA-Z0-9._-]/-/g'); curl --progress-bar --upload-file "$1" "https://transfer.sh/$basefile" >> $tmpfile; else curl --progress-bar --upload-file "-" "https://transfer.sh/$1" >> $tmpfile ; fi; cat $tmpfile; rm -f $tmpfile; }
+
+
+
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 
 # Run X automatically
 
 if [ -z "$DISPLAY" ] && [ -n "$XDG_VTNR" ] && [ "$XDG_VTNR" -eq 1 ]; then
   exec startx
 fi
-
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
