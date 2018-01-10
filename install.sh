@@ -42,59 +42,59 @@ mkdir $HOME/.weechat
 
 # < .config >
 ## compton
-ln ./.config/compton/compton.conf $HOME/.config/compton/compton.conf
+ln -s $HOME/.dotfiles/.config/compton/compton.conf $HOME/.config/compton/compton.conf
 #-----------------------------------------------------------------#
 ## dunst
-ln ./.config/dunst/dunstrc $HOME/.config/dunst/dunstrc
+ln -s $HOME/.dotfiles/.config/dunst/dunstrc $HOME/.config/dunst/dunstrc
 #-----------------------------------------------------------------#
 ## i3WM
-ln ./.config/i3/config $HOME/.config/i3/config
+ln -s $HOME/.dotfiles/.config/i3/config $HOME/.config/i3/config
 #-----------------------------------------------------------------#
 ## nvim
-ln ./.config/nvim/* $HOME/.config/nvim
+ln -s $HOME/.dotfiles/.config/nvim/* $HOME/.config/nvim
 #-----------------------------------------------------------------#
 ## polybar
-ln ./.config/polybar/* $HOME/.config/polybar
-ln ./.config/polybar/gmail/* $HOME/.config/polybar/gmail
+ln -s $HOME/.dotfiles/.config/polybar/* $HOME/.config/polybar
+ln -s $HOME/.dotfiles/.config/polybar/gmail/* $HOME/.config/polybar/gmail
 
 ### Needed for gmail plugin
 sudo pip install --upgrade google-api-python-client
 #-----------------------------------------------------------------#
 ## custom scripts
-ln ./.config/scripts/* $HOME/.config/.config/scripts
+ln -s $HOME/.dotfiles/.config/scripts/* $HOME/.config/.config/scripts
 #-----------------------------------------------------------------#
 ## termite
-ln ./.config/termite/config $HOME/.config/termite/config
+ln -s $HOME/.dotfiles/.config/termite/config $HOME/.config/termite/config
 #-----------------------------------------------------------------#
 ## nvim
-ln ./.config/nvim/* $HOME/.config/nvim
+ln -s $HOME/.dotfiles/.config/nvim/* $HOME/.config/nvim
 yaourt -Syua python2-neovim python-neovim
 #-----------------------------------------------------------------#
 
 # < .weechat >
-ln ./.weechat/weechat.conf $HOME/.weechat/weechat.config
+ln -s $HOME/.dotfiles/.weechat/weechat.conf $HOME/.weechat/weechat.config
 #-----------------------------------------------------------------#
 # < .tmux >
 mkdir $HOME/.tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-ln ./.tmux/* $HOME/.tmux/
-ln -s ./.tmux/config $HOME/.tmux.conf
+ln -s $HOME/.dotfiles/.tmux/* $HOME/.tmux/
+ln -s $HOME/.dotfiles/.tmux/config $HOME/.tmux.conf
 #-----------------------------------------------------------------#
 
 
 # Root directory config files
 
-ln ./.fehbg $HOME/.fehbg
-ln ./.Xdefaults $HOME/.Xdefaults
-ln ./.xinitrc $HOME/.xinitrc
-ln ./.zshrc $HOME/.zshrc
+ln -s $HOME/.dotfiles/.fehbg $HOME/.fehbg
+ln -s $HOME/.dotfiles/.Xdefaults $HOME/.Xdefaults
+ln -s $HOME/.dotfiles/.xinitrc $HOME/.xinitrc
+ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 #-----------------------------------------------------------------#
 
 # Fonts installation
-cp -fr ./.local/share/fonts/* $HOME/.local/share/fonts
+cp -fr $HOME/.local/share/fonts/* $HOME/.local/share/fonts
 #-----------------------------------------------------------------#
 # Wallpaper nstallation
-cp -fr ./.local/share/wallpapers/* $HOME/.local/share/wallpapers
+cp -fr $HOME/.local/share/wallpapers/* $HOME/.local/share/wallpapers
 #-----------------------------------------------------------------#
 
 
