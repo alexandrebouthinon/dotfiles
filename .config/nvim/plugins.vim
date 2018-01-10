@@ -73,5 +73,9 @@ call plug#begin()
   Plug 'zchee/deoplete-clang'             " C++/C/Objective-C autocompletion
 " }}}
 
+" Outline Viewer {{{
+  Plug 'majutsushi/tagbar' " Class outline
+" }}}
+
 call plug#end()
 

@@ -47,6 +47,8 @@
       try | lfirst | catch | endtry
     endtry
   endfunction
+
+  autocmd! BufWritePost,BufEnter * Neomake
 " }}}
 
 " Deoplete {{{
@@ -156,4 +158,8 @@
   function! MyFiletype()
     return winwidth(0) > 70 ? (strlen(&filetype) ? &filetype . ' ' . WebDevIconsGetFileTypeSymbol() : 'no ft') : ''
   endfunction
+" }}}
+
+" TagBar {{{
+  nmap <F8> :TagbarToggle<CR>
 " }}}
