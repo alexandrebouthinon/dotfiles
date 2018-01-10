@@ -9,11 +9,11 @@
                     ###                     ###
 
 # Installing Desktop Environment packages
-yaourt -Syua compton termite i3-gaps neovim polybar ncmpcpp &&
-yaourt -Syua weechat mpd feh zsh rofi neofetch &&
+yaourt -Syua compton tmux termite i3-gaps neovim polybar &&
+yaourt -Syua weechat feh zsh rofi neofetch &&
 yaourt -Syua htop docker git i3lock imagemagick numlockx &&
 yaourt -Syua libcanberra numlockx python-pip python2-pip &&
-yaourt -Syua xorg-xset xorg-xintput xorg-setxkbmap &&
+yaourt -Syua xorg-xset xorg-xinput xorg-setxkbmap &&
 ##-----------------------------------------------------------------#
 
 # Installing Desktop Environment custom configuration
@@ -68,18 +68,17 @@ ln ./.config/termite/config $HOME/.config/termite/config
 #-----------------------------------------------------------------#
 ## nvim
 ln ./.config/nvim/* $HOME/.config/nvim
-#-----------------------------------------------------------------#
-
-# < .mpd >
-ln ./.mpd/* $HOME/.mpd
-#-----------------------------------------------------------------#
-
-# < .ncmpcpp >
-ln ./.ncmpcpp/config $HOME/.ncmpcpp/fontconfig
+yaourt -Syua python2-neovim python-neovim
 #-----------------------------------------------------------------#
 
 # < .weechat >
 ln ./.weechat/weechat.conf $HOME/.weechat/weechat.config
+#-----------------------------------------------------------------#
+# < .tmux >
+mkdir $HOME/.tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+ln ./.tmux/* $HOME/.tmux/
+ln -s ./.tmux/config $HOME/.tmux.conf
 #-----------------------------------------------------------------#
 
 
