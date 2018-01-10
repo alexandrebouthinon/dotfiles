@@ -9,11 +9,11 @@
                     ###                     ###
 
 # Installing Desktop Environment packages
-yaourt -Syua compton tmux termite i3-gaps neovim polybar &&
-yaourt -Syua weechat feh zsh rofi neofetch &&
-yaourt -Syua htop docker git i3lock imagemagick numlockx &&
-yaourt -Syua libcanberra numlockx python-pip python2-pip &&
-yaourt -Syua xorg-xset xorg-xinput xorg-setxkbmap &&
+yaourt -Syua light compton ranger tmux termite i3-gaps neovim polybar playerctl cmatrix figlet&&
+yaourt -Syua weechat feh wireless_tools alsa-utils alsa-libs zsh rofi neofetch &&
+yaourt -Syua htop docker git i3lock imagemagick numlockx dunst openssh atool w3m &&
+yaourt -Syua libcanberra numlockx python-pip python2-pip highlight xorg-xbacklight xdg-utils wpa_actiond &&
+yaourt -Syua xorg-xset xorg-xinput xorg-setxkbmap zsh-syntax-highlight scrot tcl guile2.0 aspell ruby acpi &&
 ##-----------------------------------------------------------------#
 
 # Installing Desktop Environment custom configuration
@@ -27,12 +27,6 @@ mkdir $HOME/.config/polybar/gmail
 mkdir $HOME/.local
 mkdir $HOME/.local/share
 mkdir $HOME/.local/share/{fonts,wallpapers}
-#-----------------------------------------------------------------#
-# .mpd
-mkdir $HOME/.mpd
-#-----------------------------------------------------------------#
-# .ncmpcpp
-mkdir $HOME/.ncmpcpp
 #-----------------------------------------------------------------#
 # .weechat
 mkdir $HOME/.weechat
@@ -81,7 +75,8 @@ ln -s $HOME/.dotfiles/.tmux/* $HOME/.tmux/
 ln -s $HOME/.dotfiles/.tmux/config $HOME/.tmux.conf
 #-----------------------------------------------------------------#
 
-
+# Install oh my zsh
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 # Root directory config files
 
 ln -s $HOME/.dotfiles/.fehbg $HOME/.fehbg
@@ -91,18 +86,16 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 #-----------------------------------------------------------------#
 
 # Fonts installation
-cp -fr $HOME/.local/share/fonts/* $HOME/.local/share/fonts
+cp -fr $HOME/.dotfiles/.local/share/fonts/* $HOME/.local/share/fonts
 #-----------------------------------------------------------------#
 # Wallpaper nstallation
-cp -fr $HOME/.local/share/wallpapers/* $HOME/.local/share/wallpapers
+cp -fr $HOME/.dotfiles/.local/share/wallpapers/* $HOME/.local/share/wallpapers
 #-----------------------------------------------------------------#
 
 
 # Installing favorites applications
 yaourt -Syua firefox firefox-i18n-fr
-#yaourt -Syua steam
 yaourt -Syua moeditor
 yaourt -Syua spotify
 #yaourt -Syua staruml
-#yaourt -Syua atom
 #-----------------------------------------------------------------#
