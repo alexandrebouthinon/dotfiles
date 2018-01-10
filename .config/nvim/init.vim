@@ -121,6 +121,12 @@
       endif
     endfunction
   " }}}
+
+  " Fold Marker Hiding {{{
+    au BufRead,BufNewfile * syn match fmrkr '"*{{{\|"*}}}' |
+      \ syn cluster vimCommentGroup contains=fmrkr |
+      \ hi fmrkr term=NONE guibg=#1D1F21 guifg=#1D1F21
+  " }}}
 " }}}
 
 " Markdown Settings {{{

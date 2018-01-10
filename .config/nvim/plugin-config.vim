@@ -76,17 +76,17 @@
 " }}}
 
 " NERDTree {{{
-  let NERDTreeIgnore = ['node_modules', 'tmp', 'bower_components']
-  " Don't want to see the extra text
-  let NERDTreeMinimalUI = 1
-  " Close NERDTree after reading file
-  autocmd BufReadPre,FileReadPre * :NERDTreeClose
-  map <silent> <leader>n :NERDTreeToggle<CR>
-  " Get colors from color scheme
-  let s:colors = onedark#GetColors()
-" }}}
+  " General {{{
+    let NERDTreeIgnore = ['node_modules', 'tmp', 'bower_components']
+    " Don't want to see the extra text
+    let NERDTreeMinimalUI = 1
+    " Close NERDTree after reading file
+    autocmd BufReadPre,FileReadPre * :NERDTreeClose
+    map <silent> <leader>n :NERDTreeToggle<CR>
+    " Get colors from color scheme
+    let s:colors = onedark#GetColors()
+  " }}}
 
-" NERDTree {{{
   " File highlighting {{{
   function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
    exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
