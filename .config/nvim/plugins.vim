@@ -46,6 +46,7 @@ call plug#begin()
 
 " VCS {{{
   Plug 'tpope/vim-fugitive'               " Git wrapper
+  Plug 'airblade/vim-gitgutter'           " Git overview and merge tool
 " }}}
 
 " Snippets {{{
