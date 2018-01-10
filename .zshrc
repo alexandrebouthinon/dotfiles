@@ -23,29 +23,31 @@
     fi
   # }}}
 
-  # Default Applications {{{
-    export EDITOR='nvim'
-    export BROWSER='/usr/bin/firefox'
-  # }}}
 # }}}
 
 # Theme / Plugins {{{
-  source $ZSH/oh-my-zsh.sh
 
   # Theme {{{
-    POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator context dir_writable dir rbenv vcs newline)
+    POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator context dir_writable dir vcs newline)
     POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
     POWERLEVEL9K_MODE='nerdfont-complete'
     ZSH_THEME="powerlevel9k/powerlevel9k"
-    source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
   # }}}
 
   # Plugins {{{
     plugins=(git)
   # }}}
+
+  source $ZSH/oh-my-zsh.sh
+  source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # }}}
 
 # User configuration {{{
+  # Default Applications {{{
+    export EDITOR='nvim'
+    export BROWSER='/usr/bin/firefox'
+  # }}}
+
   # Aliases {{{
     alias zshconfig="vim ~/.zshrc"
     alias vi="nvim"
