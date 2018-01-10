@@ -9,7 +9,7 @@
                     ###                     ###
 
 # Installing Desktop Environment packages
-yaourt -Syua light compton ranger tmux termite i3-gaps neovim polybar playerctl cmatrix figlet&&
+yaourt -Syua compton ranger tmux termite i3-gaps neovim polybar playerctl cmatrix figlet&&
 yaourt -Syua weechat feh wireless_tools alsa-utils alsa-libs zsh rofi neofetch &&
 yaourt -Syua htop docker git i3lock imagemagick numlockx dunst openssh atool w3m &&
 yaourt -Syua libcanberra numlockx python-pip python2-pip highlight xorg-xbacklight xdg-utils wpa_actiond &&

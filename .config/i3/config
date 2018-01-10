@@ -70,8 +70,8 @@
     # }}}
 
     # Sreen Brightness {{{
-        bindsym XF86MonBrightnessUp exec /usr/bin/light -A 10 # increase screen brightness
-        bindsym XF86MonBrightnessDown exec /usr/bin/light -U 10 # decrease screen brightness
+        bindsym XF86MonBrightnessUp exec ~/.config/scripts/bright_up.sh # increase screen brightness
+        bindsym XF86MonBrightnessDown exec ~/.config/scripts/bright_down.sh # decrease screen brightness
     # }}}
 
     # Touchpad {{{

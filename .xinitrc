@@ -21,5 +21,7 @@ dunst &
 # Enable Num Lock on start
 numlockx on &
 
+sudo chmod go+w /sys/class/backlight/intel_backlight/brightness &
+
 # Start i3
 exec i3
