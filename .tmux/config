@@ -10,7 +10,7 @@ set -g mouse on
 # List of plugins
 set -g @plugin 'tmux-plugins/tpm'
 
-# Theme
+# Colors
 run 'sh ~/.tmux/theme.sh'
 
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
