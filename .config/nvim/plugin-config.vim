@@ -107,6 +107,7 @@
 
   " Keymap {{{
   map <C-t> :NERDTreeToggle<CR>
+  map <C-m> :NERDTreeMirror<CR>
   " }}}
 " }}}
 
