@@ -1,0 +1,40 @@
+#!/usr/bin/python
+
+from subprocess import CalledProcessError, Popen, PIPE
+from colors import color
+import sys, os, time
+
+def main():
+   bg = ""
+   log = ""
+   mycommand = []
+
+   for arg in sys.argv[1:]:
+      mycommand.append(arg)
+
+   try:
+       process = Popen(mycommand, stdout=PIPE)
+       process.wait()
+       returncode = process.returncode
+   except CalledProcessError as e:
+       log = e.output
+
+   for i in range(0, 5000):
+       bg += " "
+   if returncode == 0:
+       print(color(bg, bg='green'))
+   else:
+       print(color(bg, bg='red'))
+       time.sleep(1)
+       os.system('cls' if os.name == 'nt' else 'clear')
+       errorComming = False
+       for line in process.stdout:
+         if "ERRORS" in line.decode('ascii'):
+            errorComming = True
+         if errorComming:
+            log += color(line.decode('ascii'), fg='red')
+       print(log)
+
+if __name__ == "__main__":
+   main()
+
