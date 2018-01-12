@@ -15,7 +15,7 @@
 
 # Environment Variables {{{
   # User Space {{{
-    export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin/clangd:$HOME/.config/scripts:$PATH
+    export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin/clangd:$HOME/.config/scripts:/opt:$PATH
     export ZSH=/home/alex/.oh-my-zsh
 
     if [ "$TERM" != "tmux-256color" ]; then
