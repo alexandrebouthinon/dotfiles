@@ -387,17 +387,17 @@ format-connected-prefix-foreground = #5b
 type = internal/date
 interval = 1
 
-date = "%d/%m/%y"
-date-alt = "%A, %B %d, %Y"
+date = "%A %d %B %Y"
+date-alt = "%A %d %B %Y"
 
-time = "%H:%M"
+time = %H:%M:%S
 time-alt =  %H:%M:%S
 
 ;format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
-label = %date% %time%
+label =  %date%   %time%
 
 [module/volume]
 type = internal/volume
