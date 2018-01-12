@@ -526,7 +526,7 @@ menu-0-1-exec = menu-open-2
 menu-0-2 = déconnexion
 menu-0-2-exec = menu-open-3
 menu-0-3 = 
-menu-0-3-exec = "~/.config/scripts/lock &"
+menu-0-3-exec = "~/.config/scripts/lock & systemctl suspend &"
 
 menu-1-0 = redémarrer
 menu-1-0-exec = reboot

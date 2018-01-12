@@ -99,6 +99,7 @@
 
         # Lock the screen using custom script
         bindsym $mod+Mod1+l exec ~/.config/scripts/lock
+        bindsym $mod+Mod1+Shift+l exec "~/.config/scripts/lock; systemctl suspend"
     # }}}
 
     # Navigation {{{
