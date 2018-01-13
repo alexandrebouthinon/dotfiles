@@ -1,6 +1,7 @@
 [user]
 	name = Alexandre Bouthinon
 	email = bouthinon.alexandre@gmail.com
+	signingkey = DEBFED072AAA0D89
 [alias]
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 [core]

@@ -67,4 +67,8 @@
       exec startx
     fi
   # }}}
+
+  # GPG Keys {{{
+    export GPG_TTY=$(tty)
+  # }}}
 # }}}
