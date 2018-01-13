@@ -165,3 +165,7 @@
 " Plugins Configuration {{{
   source $HOME/.config/nvim/plugin-config.vim
 " }}}
+
+" Custom Configuration {{{
+  source $HOME/.config/nvim/customs.vim
+" }}}

@@ -83,7 +83,6 @@
     " Don't want to see the extra text
     let NERDTreeMinimalUI = 1
     " Close NERDTree after reading file
-    autocmd BufReadPre,FileReadPre * :NERDTreeClose
     map <silent> <leader>n :NERDTreeToggle<CR>
     " Get colors from color scheme
     let s:colors = onedark#GetColors()
@@ -107,7 +106,6 @@
 
   " Keymap {{{
   map <C-t> :NERDTreeToggle<CR>
-  map <C-m> :NERDTreeMirror<CR>
   " }}}
 " }}}
 
