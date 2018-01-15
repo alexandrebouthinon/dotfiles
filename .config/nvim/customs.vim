@@ -31,14 +31,12 @@
     " }}}
 
     " Tests {{{
-      " School Annual Project {{{
-        if getcwd() == "/home/alex/Documents/Backgammon/Backgammon"
+        if isdirectory(getcwd() . "/tests")
           augroup test
             autocmd BufWrite *.py silent !pkill TDD-python
-            autocmd BufWrite *.py silent !tmux send-keys -t "0.1" "PYTHONPATH=src/lib TDD-python pytest ./tests/*.py" ENTER
+            autocmd BufWrite *.py silent !tmux send-keys -t "0.1" "TDD-python pytest tests/*.py" ENTER
           augroup END
         endif
-      " }}}
     " }}}
   " }}}
 " }}}
