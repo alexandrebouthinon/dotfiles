@@ -156,10 +156,6 @@
     noremap <C-l> <C-w>l
   " }}}
 
-  " Mode Switching {{{
-    nnoremap <C-space> i
-    imap <C-space> <Esc>
-  " }}}
 " }}}
 
 " Plugins Configuration {{{
