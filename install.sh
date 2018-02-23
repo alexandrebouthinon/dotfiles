@@ -83,6 +83,8 @@ ln -s $HOME/.dotfiles/.fehbg $HOME/.fehbg
 ln -s $HOME/.dotfiles/.Xdefaults $HOME/.Xdefaults
 ln -s $HOME/.dotfiles/.xinitrc $HOME/.xinitrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+ln -s $HOME/.dotfiles/.Xmodmap $HOME/.Xmodmap
+ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
 #-----------------------------------------------------------------#
 
 # Fonts installation

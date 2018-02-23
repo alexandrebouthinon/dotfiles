@@ -9,9 +9,6 @@ xinput set-button-map 10 1 2 3 4 5 2 7 8 9
 # FR keyboard
 setxkbmap fr &
 
-# Mapping Caps lock to Escape
-xmodmap ~/.Xmodmap
-
 # Wallpaper service
 ~/.fehbg &
 
@@ -23,6 +20,9 @@ dunst &
 
 # Enable Num Lock on start
 numlockx on &
+
+# Mapping Caps lock to Escape
+xmodmap $HOME/.Xmodmap
 
 sudo chmod go+w /sys/class/backlight/intel_backlight/brightness &
 
