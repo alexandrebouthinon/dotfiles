@@ -9,15 +9,17 @@
                     ###                     ###
 
 # Installing Desktop Environment packages
-yaourt -Syua compton ranger tmux termite i3-gaps neovim polybar playerctl cmatrix figlet&&
-yaourt -Syua weechat feh wireless_tools alsa-utils alsa-libs zsh rofi neofetch &&
-yaourt -Syua htop docker git i3lock imagemagick numlockx dunst openssh atool w3m &&
-yaourt -Syua libcanberra numlockx python-pip python2-pip highlight xorg-xbacklight xdg-utils wpa_actiond &&
-yaourt -Syua xorg-xset xorg-xinput xorg-setxkbmap zsh-syntax-highlight scrot tcl guile2.0 aspell ruby acpi &&
+yaourt -Syu --noconfirm compton ranger tmux termite neovim playerctl cmatrix figlet curl > /dev/null &&
+yaourt -Syu --noconfirm weechat feh wireless_tools alsa-utils alsa-libs zsh rofi neofetch > /dev/null &&
+yaourt -Syu --noconfirm htop docker git i3lock imagemagick numlockx dunst openssh atool w3m > /dev/null &&
+yaourt -Syu --noconfirm libcanberra numlockx python-pip python2-pip highlight xorg-xbacklight xdg-utils wpa_actiond > /dev/null &&
+yaourt -Syu --noconfirm xorg-xset xorg-xinput xorg-setxkbmap zsh-syntax-highlight scrot tcl guile2.0 aspell ruby acpi > /dev/null &&
+yaourt -Syua --noconfirm i3-gaps boostnote spotify polybar &&
 ##-----------------------------------------------------------------#
 
 # Installing Desktop Environment custom configuration
 
+mkdir $HOME/.tmux
 # .config
 mkdir $HOME/.config
 mkdir $HOME/.config/{compton,dunst,i3,nvim,polybar,scripts,termite}
@@ -55,21 +57,20 @@ ln -s $HOME/.dotfiles/.config/polybar/gmail/* $HOME/.config/polybar/gmail
 sudo pip install --upgrade google-api-python-client
 #-----------------------------------------------------------------#
 ## custom scripts
-ln -s $HOME/.dotfiles/.config/scripts/* $HOME/.config/.config/scripts
+ln -s $HOME/.dotfiles/.config/scripts/* $HOME/.config/.config/scripts/
 #-----------------------------------------------------------------#
 ## termite
 ln -s $HOME/.dotfiles/.config/termite/config $HOME/.config/termite/config
 #-----------------------------------------------------------------#
 ## nvim
 ln -s $HOME/.dotfiles/.config/nvim/* $HOME/.config/nvim
-yaourt -Syua python2-neovim python-neovim
+yaourt -Syu --noconfirm python2-neovim python-neovim > /dev/null
 #-----------------------------------------------------------------#
 
 # < .weechat >
 ln -s $HOME/.dotfiles/.weechat/weechat.conf $HOME/.weechat/weechat.config
 #-----------------------------------------------------------------#
 # < .tmux >
-mkdir $HOME/.tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ln -s $HOME/.dotfiles/.tmux/* $HOME/.tmux/
 ln -s $HOME/.dotfiles/.tmux/config $HOME/.tmux.conf
@@ -82,7 +83,8 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 ln -s $HOME/.dotfiles/.fehbg $HOME/.fehbg
 ln -s $HOME/.dotfiles/.Xdefaults $HOME/.Xdefaults
 ln -s $HOME/.dotfiles/.xinitrc $HOME/.xinitrc
-ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+ln -sf $HOME/.dotfiles/.zshrc $HOME/.zshrc
 ln -s $HOME/.dotfiles/.Xmodmap $HOME/.Xmodmap
 ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
 #-----------------------------------------------------------------#
@@ -96,8 +98,5 @@ cp -fr $HOME/.dotfiles/.local/share/wallpapers/* $HOME/.local/share/wallpapers
 
 
 # Installing favorites applications
-yaourt -Syua firefox firefox-i18n-fr
-yaourt -Syua moeditor
-yaourt -Syua spotify
-#yaourt -Syua staruml
+yaourt -Syu --noconfirm firefox firefox-i18n-fr > /dev/null
 #-----------------------------------------------------------------#
