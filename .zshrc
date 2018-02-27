@@ -15,12 +15,15 @@
 
 # Environment Variables {{{
   # User Space {{{
-    export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin/clangd:$HOME/.config/scripts:/opt:$PATH
+    export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin/clangd:$HOME/.config/scripts:/opt:/usr/lib/go/bin:$PATH
     export ZSH=/home/alex/.oh-my-zsh
 
     if [ "$TERM" != "tmux-256color" ]; then
       export TERM=tmux-256color
     fi
+
+    export GOROOT=/usr/lib/go
+    export GOPATH=/home/alex/.go
   # }}}
 
 # }}}
@@ -35,11 +38,10 @@
   # }}}
 
   # Plugins {{{
-    plugins=(git)
+    plugins=(git zsh-syntax-highlighting)
   # }}}
 
   source $ZSH/oh-my-zsh.sh
-  source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # }}}
 
 # User configuration {{{

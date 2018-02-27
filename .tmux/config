@@ -1,6 +1,9 @@
 # Change prefix
 set-option -g prefix M-w
 
+# Escape key time reaction
+set -sg escape-time 0
+
 # Color conf
 set -g default-terminal "tmux-256color"
 

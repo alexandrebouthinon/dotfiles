@@ -54,7 +54,16 @@
 " Deoplete {{{
   let g:deoplete#enable_at_startup = 1
   " Improve ultisnips and deoplete integration
- call deoplete#custom#set('ultisnips', 'matchers', ['matcher_fuzzy'])
+  call deoplete#custom#set('ultisnips', 'matchers', ['matcher_fuzzy'])
+
+  " use tab to forward cycle
+  inoremap <silent><expr><Tab> pumvisible() ? "\<C-n>" : "\<tab>"
+  " use tab to backward cycle
+  inoremap <silent><expr><S-Tab> pumvisible() ? "\<C-p>" : "\<s-tab>"
+
+  " Close the documentation window when completion is done
+  autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
+
 
   " C/C++ {{{
     let g:deoplete#sources#clang#libclang_path = "/usr/lib64/libclang.so"
@@ -105,7 +114,7 @@
   " }}}
 
   " Keymap {{{
-  map <C-t> :NERDTreeToggle<CR>
+  map <F7> :NERDTreeToggle<CR>
   " }}}
 " }}}
 
@@ -161,4 +170,8 @@
 
 " TagBar {{{
   nmap <F8> :TagbarToggle<CR>
+" }}}
+
+" Go VIM {{{
+  let g:go_fmt_command = "goimports"
 " }}}

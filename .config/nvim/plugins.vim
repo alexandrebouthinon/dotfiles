@@ -69,12 +69,16 @@ call plug#begin()
 
 " Autocompletion {{{
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Keyword completion
-  Plug 'sebastianmarkow/deoplete-rust'    " Rust Completion
   Plug 'zchee/deoplete-clang'             " C++/C/Objective-C autocompletion
+  Plug 'zchee/deoplete-go'
 " }}}
 
 " Outline Viewer {{{
   Plug 'majutsushi/tagbar' " Class outline
+" }}}
+
+" Language Specifics {{{
+  Plug 'fatih/vim-go'
 " }}}
 
 call plug#end()
