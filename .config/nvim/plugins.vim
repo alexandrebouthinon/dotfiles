@@ -25,7 +25,6 @@
 call plug#begin()
 
 " General {{{
-  Plug 'mhinz/vim-startify'               " Vim home page
   Plug 'tpope/vim-sensible'               " Some sensible settings
   Plug 'tpope/vim-sleuth'                 " Autodetect file spacing
   Plug 'vim-scripts/autoswap.vim'         " Handle swap files intelligently
@@ -63,23 +62,4 @@ call plug#begin()
   Plug 'ctrlpvim/ctrlp.vim'               " ctrlp fuzzy finder
 " }}}
 
-" Linter(s) {{{
-  Plug 'neomake/neomake'                  " Syntax checking
-" }}}
-
-" Autocompletion {{{
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Keyword completion
-  Plug 'zchee/deoplete-clang'             " C++/C/Objective-C autocompletion
-  Plug 'zchee/deoplete-go'
-" }}}
-
-" Outline Viewer {{{
-  Plug 'majutsushi/tagbar' " Class outline
-" }}}
-
-" Language Specifics {{{
-  Plug 'fatih/vim-go'
-" }}}
-
 call plug#end()
-

@@ -161,9 +161,9 @@
         set $tag1 "1:"
         set $tag2 "2:"
         set $tag3 "3:"
-        set $tag4 "4:"
+        set $tag4 "4:"
         set $tag5 "5:"
-        set $tag6 "6:"
+        set $tag6 "6:"
         set $tag7 "7:"
         set $tag8 "8:"
         set $tag9 "9:"
@@ -198,11 +198,11 @@
 
     # Assignations {{{
         assign [class="Firefox"] $tag1
-        assign [class="Termite"] $tag2
         assign [class="Atom"] $tag3
-        for_window [class="Spotify"] move to workspace $tag4
-        assign [class="Moeditor"] $tag5
-        assign [class="Steam"] $tag6
+        assign [class="GitKraken"] $tag4
+        assign [class="Boostnote"] $tag5
+        for_window [class="Spotify"] move to workspace $tag6
+        assign [class="Slack"] $tag7
     # }}}
 # }}}
 

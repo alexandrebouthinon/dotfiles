@@ -22,6 +22,7 @@
       export TERM=tmux-256color
     fi
 
+    export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
     export GOROOT=/usr/lib/go
     export GOPATH=/home/alex/.go
   # }}}

@@ -28,53 +28,13 @@
 
 " CTRLP {{{
   let g:ctrlp_map = '<leader>t'
-  nmap <leader>f :CtrlPMRUFiles<cr>
+  nmap <C-f> :CtrlPMRUFiles<cr>
   let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""' " Use silver searcher
   let g:ctrlp_working_path_mode = 0
 "}}}
 
 " Indent Line {{{
   let g:indentLine_char = '┆'
-" }}}
-
-" Neomake {{{
-  nnoremap <leader>e :call LocationNext()<cr>
-
-  function! LocationNext()
-    try
-      lnext
-    catch
-      try | lfirst | catch | endtry
-    endtry
-  endfunction
-
-  autocmd! BufWritePost,BufEnter * Neomake
-" }}}
-
-" Deoplete {{{
-  let g:deoplete#enable_at_startup = 1
-  " Improve ultisnips and deoplete integration
-  call deoplete#custom#set('ultisnips', 'matchers', ['matcher_fuzzy'])
-
-  " use tab to forward cycle
-  inoremap <silent><expr><Tab> pumvisible() ? "\<C-n>" : "\<tab>"
-  " use tab to backward cycle
-  inoremap <silent><expr><S-Tab> pumvisible() ? "\<C-p>" : "\<s-tab>"
-
-  " Close the documentation window when completion is done
-  autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
-
-
-  " C/C++ {{{
-    let g:deoplete#sources#clang#libclang_path = "/usr/lib64/libclang.so"
-    let g:deoplete#sources#clang#clang_header = '/usr/include/clang'
-  " }}}
-
-  " Rust {{{
-  let g:deoplete#sources#rust#racer_binary='/home/alex/.cargo/bin/racer'
-  let g:deoplete#sources#rust#rust_source_path='/usr/lib/rustlib/src'
-  set completeopt -=preview
-  " }}}
 " }}}
 
 " NERDCommenter {{{
@@ -124,7 +84,7 @@
           \ 'colorscheme': 'onedark',
           \ 'active': {
           \   'left': [ [ 'mode', 'paste'  ],
-          \             [ 'gitbranch', 'neomake', 'readonly', 'filename', 'modified'  ] ]
+          \             [ 'gitbranch', 'readonly', 'filename', 'modified'  ] ]
           \ },
           \ 'component_function': {
           \   'gitbranch': 'fugitive#head',
@@ -135,43 +95,10 @@
           \ 'subseparator': { 'left': "\ue0b1", 'right': "\ue0b3" },
           \ }
   " }}}
-
-  " Neomake status {{{
-    function! NeomakeLightlineStatus()
-        if !exists('*neomake#statusline#LoclistCounts')
-            return ''
-        endif
-
-        " Count all the errors, warnings
-        let total = 0
-
-        for v in values(neomake#statusline#LoclistCounts())
-            let total += v
-        endfor
-
-        for v in items(neomake#statusline#QflistCounts())
-            let total += v
-        endfor
-
-        if total == 0
-            return ''
-        endif
-
-        return 'line '.getloclist(0)[0].lnum. ', 1 of '.total
-    endfunction
-  " }}}
 "}}}
 
 " Devicons {{{
   function! MyFiletype()
     return winwidth(0) > 70 ? (strlen(&filetype) ? &filetype . ' ' . WebDevIconsGetFileTypeSymbol() : 'no ft') : ''
   endfunction
-" }}}
-
-" TagBar {{{
-  nmap <F8> :TagbarToggle<CR>
-" }}}
-
-" Go VIM {{{
-  let g:go_fmt_command = "goimports"
 " }}}

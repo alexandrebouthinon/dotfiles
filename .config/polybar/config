@@ -69,8 +69,8 @@ module-margin-left = 1
 module-margin-right = 3
 
 font-0 = Monaco for Powerline:pixelsize=12;2
-font-1 = unifont:size=10;2
-font-2 = siji:pixelsize=10;3
+font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
+font-2 = WunconSiji:pixelsize=12;1
 font-3 = FontAwesome:pixelsize=14;2
 
 modules-left =  i3 xwindow
@@ -124,8 +124,8 @@ module-margin-left = 1
 module-margin-right = 2
 
 font-0 = Monaco for Powerline:pixelsize=12;2
-font-1 = unifont:size=10;2
-font-2 = siji:pixelsize=10;3
+font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
+font-2 = WunconSiji:pixelsize=12;1
 font-3 = FontAwesome:pixelsize=14;2
 
 modules-left = spotify

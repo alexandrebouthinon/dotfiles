@@ -26,5 +26,11 @@ xmodmap $HOME/.Xmodmap
 
 sudo chmod go+w /sys/class/backlight/intel_backlight/brightness &
 
+
+dbus-update-activation-environment --systemd DISPLAY
+eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+export SSH_AUTH_SOCK
+
+
 # Start i3
 exec i3
