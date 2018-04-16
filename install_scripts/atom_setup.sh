@@ -4,7 +4,7 @@
 
 echo -e "\n\t [ Installing and configuring Atom Editor ]\n"
 echo -e "Installing Atom ...\n"
-yaourt -Sy atom > /dev/null
+yaourt -Sy --noconfirm --force atom > /dev/null
 echo -e "Installing Plugins :\n"
 apm install atom-ide-ui
 apm install go-plus

@@ -73,9 +73,9 @@ font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
 font-2 = WunconSiji:pixelsize=12;1
 font-3 = FontAwesome:pixelsize=14;2
 
-modules-left =  i3 xwindow
+modules-left = i3 xwindow
 modules-center =
-modules-right = gmail backlight volume wlan battery date powermenu
+modules-right = gmail backlight volume wired-network wireless-network battery date powermenu
 ;modules-right = backlight volume github pkg wlan vpncheck pptpcheck battery date powermenu
 ;modules-right = backlight volume pkg wlan vpncheck battery date powermenu
 
@@ -129,7 +129,7 @@ font-2 = WunconSiji:pixelsize=12;1
 font-3 = FontAwesome:pixelsize=14;2
 
 modules-left = spotify
-modules-center = networkspeedup networkspeeddown
+modules-center = wired-networkspeedup wired-networkspeeddown wireless-networkspeedup wireless-networkspeeddown
 modules-right = temperature filesystem-slash cpu memory
 
 
@@ -168,12 +168,12 @@ label-mounted = "%{F#5b5b5b}%{F-} %percentage_used%%"
 ;label-unmounted = %mountpoint%: not mounted
 ;label-unmounted-foreground = ${colors.foreground-alt}
 
-
 [module/gmail]
 type = custom/script
 exec = ~/.config/polybar/gmail/launch.py
 tail = true
 click-left = xdg-open https://mail.google.com
+click-right = i3-msg workspace "1:"
 
 [module/bspwm]
 type = internal/bspwm
@@ -296,7 +296,7 @@ bar-empty-foreground = ${colors.foreground-alt}
 [module/cpu]
 type = internal/cpu
 interval = 2
-format = <ramp-coreload>
+format = "%{A1:exec termite -e 'gtop' --class GTOP &:}<ramp-coreload>%{A}"
 format-prefix =
 format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = #f90000
@@ -314,7 +314,7 @@ ramp-coreload-7 = %{F#ff5c57}█%{F-}
 [module/memory]
 type = internal/memory
 interval = 2
-format = <label> <bar-used>
+format = "%{A1:exec termite -e 'gtop' --class GTOP &:}<label> <bar-used>%{A}"
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = #4bffdc
@@ -330,9 +330,10 @@ bar-used-empty = 
 bar-used-empty-foreground = #444444
 bar-used-indicator =
 
-[module/wlan]
+[module/wireless-network]
 type = internal/network
 interface = wlp2s0
+
 interval = 3.0
 
 format-connected = <label-connected>
@@ -342,45 +343,55 @@ format-connected-prefix-foreground = #5b
 format-connected-underline = #9f78e1
 ;format-disconnected-underline = ${self.format-connected-underline}
 
-label-connected = "%{A1:connman-gtk &:}%essid%%{A}"
-label-disconnected = "%{A1:connman-gtk &:}%{A}"
+label-connected = "%{A1:exec termite -e 'sudo wifi-menu' --class WIFI &:}%essid%%{A}"
+label-disconnected = "%{A1:exec termite -e 'sudo wifi-menu' --class WIFI &:}%{A}"
 label-disconnected-foreground = #5b
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
-ramp-signal-foreground = ${colors.foreground-alt}
-
-[module/eth]
+[module/wired-network]
 type = internal/network
 interface = enp3s0
+
 interval = 3.0
 
 format-connected-underline = #55aa55
-format-connected-prefix = " "
+format-connected-prefix = " "
 format-connected-foreground-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%
 
 format-disconnected-underline = ${self.format-connected-underline}
-label-disconnected = %ifname%
+label-disconnected =
 label-disconnected-foreground = ${colors.foreground-alt}
 
-[module/networkspeedup]
+[module/wired-networkspeedup]
+type = internal/network
+interface = enp3s0
+label-connected = "%upspeed:7%"
+format-connected = <label-connected>
+format-connected-prefix = "%{F#10ce4f} %{F#FFF}"
+format-connected-prefix-foreground = #5b
+
+[module/wired-networkspeeddown]
+type = internal/network
+interface = enp3s0
+label-connected = "%downspeed:7%"
+format-connected = <label-connected>
+format-connected-prefix = "%{F#ce2121} %{F#FFF}"
+format-connected-prefix-foreground = #5b
+
+[module/wireless-networkspeedup]
 type = internal/network
 interface = wlp2s0
 label-connected = "%upspeed:7%"
 format-connected = <label-connected>
-format-connected-prefix = " "
+format-connected-prefix = "%{F#10ce4f} %{F#FFF}"
 format-connected-prefix-foreground = #5b
 
-[module/networkspeeddown]
+[module/wireless-networkspeeddown]
 type = internal/network
 interface = wlp2s0
 label-connected = "%downspeed:7%"
 format-connected = <label-connected>
-format-connected-prefix = " "
+format-connected-prefix = "%{F#ce2121} %{F#FFF}"
 format-connected-prefix-foreground = #5b
 
 [module/date]
@@ -397,12 +408,12 @@ time-alt =  %H:%M:%S
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
-label =  %date%   %time%
+label = "%{A1:exec termite -e 'khal interactive' --class CALENDAR &:} %date%   %time% %{A}"
 
 [module/volume]
 type = internal/volume
 
-format-volume = <label-volume> <bar-volume>
+format-volume = "%{A1:pkill alsamixer ; exec termite -e alsamixer --class MIXER &:}<label-volume> <bar-volume>%{A}"
 label-volume = ""
 label-volume-foreground = ${root.foreground}
 
@@ -526,7 +537,7 @@ menu-0-1-exec = menu-open-2
 menu-0-2 = déconnexion
 menu-0-2-exec = menu-open-3
 menu-0-3 = 
-menu-0-3-exec = "~/.config/scripts/lock & systemctl suspend &"
+menu-0-3-exec = "light-locker-command -l"
 
 menu-1-0 = redémarrer
 menu-1-0-exec = reboot
@@ -541,5 +552,6 @@ menu-3-0-exec = i3-msg exit
 [module/spotify]
 type = custom/script
 exec = ~/.config/polybar/spotify.sh %artist% - %title%
+click-left = "i3-msg workspace 6:"
 tail = true
 interval = 2

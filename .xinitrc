@@ -24,6 +24,9 @@ numlockx on &
 # External storage daemon
 udiskie -2 -s &
 
+# LightDM locker service
+light-locker &
+
 sudo chmod go+w /sys/class/backlight/intel_backlight/brightness &
 # Start i3
 exec i3

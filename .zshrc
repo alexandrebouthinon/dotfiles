@@ -15,7 +15,7 @@
 
 # Environment Variables {{{
   # User Space {{{
-    export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin/clangd:$HOME/.config/scripts:/opt:/usr/lib/go/bin:$PATH
+    export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin/clangd:$HOME/.config/scripts:/opt:/usr/lib/go/bin:$HOME/.gem/ruby/2.5.0/bin:$PATH
     export ZSH=/home/alex/.oh-my-zsh
 
     if [ "$TERM" != "tmux-256color" ]; then
@@ -77,10 +77,10 @@
 
 # SSH Agent {{{
   if ! pgrep -u "$USER" ssh-agent > /dev/null; then
-    ssh-agent > ~/.ssh-agent-thing
+    ssh-agent > ~/.ssh-agent
   fi
   if [[ "$SSH_AGENT_PID" == "" ]]; then
-    eval "$(<~/.ssh-agent-thing)" > /dev/null
+    eval "$(<~/.ssh-agent)" > /dev/null
   fi
 # }}}
 # }}}

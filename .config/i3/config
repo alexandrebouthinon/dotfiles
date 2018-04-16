@@ -98,8 +98,8 @@
         bindsym $mod+d exec rofi -show drun
 
         # Lock the screen using custom script
-        bindsym $mod+Mod1+l exec ~/.config/scripts/lock
-        bindsym $mod+Mod1+Shift+l exec "~/.config/scripts/lock; systemctl suspend"
+        bindsym $mod+Mod1+l exec light-locker-command -l
+        bindsym $mod+Mod1+Shift+l exec "light-locker-command -l ; systemctl suspend"
     # }}}
 
     # Navigation {{{
@@ -126,6 +126,9 @@
         bindsym $mod+Shift+Down move down
         bindsym $mod+Shift+Up move up
         bindsym $mod+Shift+Right move right
+
+        bindsym $mod+Shift+Tab workspace prev
+        bindsym $mod+Tab workspace next
     # }}}
 
     # Split {{{
@@ -204,6 +207,13 @@
         for_window [class="Spotify"] move to workspace $tag6
         assign [class="Slack"] $tag7
     # }}}
+# }}}
+
+# Windows {{{
+for_window [class="GTOP"] floating enable move right 670px, move down 336px
+for_window [class="WIFI"] floating enable move right 560px, move up 336px
+for_window [class="MIXER"] floating enable move right 350px, move up 336px
+for_window [class="CALENDAR"] floating enable move right 670px, move up 336px
 # }}}
 
 # System Controls {{{
