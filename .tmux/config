@@ -17,7 +17,7 @@ bind -n M-Up select-pane -U
 bind -n M-Down select-pane -D
 
 # split panes using | and -
-bind | split-window -h
+bind / split-window -h
 bind - split-window -v
 unbind '"'
 unbind %
