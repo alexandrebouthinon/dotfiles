@@ -102,3 +102,13 @@
     return winwidth(0) > 70 ? (strlen(&filetype) ? &filetype . ' ' . WebDevIconsGetFileTypeSymbol() : 'no ft') : ''
   endfunction
 " }}}
+
+" TagBar {{{
+  map <F8> :TagbarOpen<CR>
+" }}}
+
+" Snippets {{{
+  let g:UltiSnipsExpandTrigger="<tab>"
+  let g:UltiSnipsJumpForwardTrigger="<c-b>"
+  let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+" }}}

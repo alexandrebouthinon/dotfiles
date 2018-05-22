@@ -60,6 +60,11 @@ call plug#begin()
 " File exploration {{{
   Plug 'scrooloose/nerdtree'              " File tree view
   Plug 'ctrlpvim/ctrlp.vim'               " ctrlp fuzzy finder
+  Plug 'majutsushi/tagbar'                " Tagbar
+" }}}
+
+" Languages {{{
+  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 " }}}
 
 call plug#end()
