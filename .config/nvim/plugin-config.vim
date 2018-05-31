@@ -104,11 +104,31 @@
 " }}}
 
 " TagBar {{{
-  map <F8> :TagbarOpen<CR>
+  map <F8> :TagbarToggle<CR>
 " }}}
 
 " Snippets {{{
   let g:UltiSnipsExpandTrigger="<tab>"
   let g:UltiSnipsJumpForwardTrigger="<c-b>"
   let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+" }}}
+
+" Complete {{{
+  " Path to python interpreter for neovim
+  let g:python3_host_prog  = '/usr/bin/python3'
+  " Skip the check of neovim module
+  let g:python3_host_skip_check = 1
+
+  " Run deoplete.nvim automatically
+  let g:deoplete#enable_at_startup = 1
+  " deoplete-go settings
+  let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
+  let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
+" }}}
+
+" Latex Preview {{{
+  let g:livepreview_previewer = 'evince'
+  let g:livepreview_engine = 'pdflatex'
+  autocmd Filetype tex setl updatetime=5
+  nmap <F12> :LLPStartPreview<cr>
 " }}}

@@ -65,6 +65,12 @@ call plug#begin()
 
 " Languages {{{
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+  Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 " }}}
 
+" Completion {{{
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'zchee/deoplete-go', { 'do': 'make'}
+  Plug 'poppyschmo/deoplete-latex'
+" }}}
 call plug#end()
