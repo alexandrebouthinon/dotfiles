@@ -52,7 +52,7 @@ offset-y = 0
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-locale = fr_FR.UTF-8
+locale = en_US.UTF-8
 
 overline-size = 0
 overline-color = #f00
@@ -75,7 +75,7 @@ font-3 = FontAwesome:pixelsize=14;2
 
 modules-left = i3 xwindow
 modules-center =
-modules-right = gmail backlight volume wired-network wireless-network battery date powermenu
+modules-right = backlight volume wired-network wireless-network battery date powermenu
 ;modules-right = backlight volume github pkg wlan vpncheck pptpcheck battery date powermenu
 ;modules-right = backlight volume pkg wlan vpncheck battery date powermenu
 
@@ -130,7 +130,7 @@ font-3 = FontAwesome:pixelsize=14;2
 
 modules-left = spotify
 modules-center = wired-networkspeedup wired-networkspeeddown wireless-networkspeedup wireless-networkspeeddown
-modules-right = temperature filesystem-slash cpu memory
+modules-right = temperature filesystem-slash filesystem-home cpu memory
 
 
 [module/xwindow]
@@ -275,9 +275,15 @@ bar-progress-fill = ─
 bar-progress-empty = ─
 
 [module/backlight]
-type = internal/backlight
-card = intel_backlight
-click-left = connman-gtk
+type = internal/xbacklight
+
+; XRandR output to get get values from
+; Default: the monitor defined for the running bar
+output = eDP1
+
+; Create scroll handlers used to set the backlight value
+; Default: true
+enable-scroll = true
 
 format = <label> <bar>
 label = ""
@@ -296,7 +302,7 @@ bar-empty-foreground = ${colors.foreground-alt}
 [module/cpu]
 type = internal/cpu
 interval = 2
-format = "%{A1:exec termite -e 'gtop' --class GTOP &:}<ramp-coreload>%{A}"
+format = "<ramp-coreload>"
 format-prefix =
 format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = #f90000
@@ -314,7 +320,7 @@ ramp-coreload-7 = %{F#ff5c57}█%{F-}
 [module/memory]
 type = internal/memory
 interval = 2
-format = "%{A1:exec termite -e 'gtop' --class GTOP &:}<label> <bar-used>%{A}"
+format = "<label> <bar-used>"
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = #4bffdc
@@ -349,7 +355,7 @@ label-disconnected-foreground = #5b
 
 [module/wired-network]
 type = internal/network
-interface = enp3s0
+interface = enp0s31f6
 
 interval = 3.0
 
@@ -364,7 +370,7 @@ label-disconnected-foreground = ${colors.foreground-alt}
 
 [module/wired-networkspeedup]
 type = internal/network
-interface = enp3s0
+interface = enp0s31f6
 label-connected = "%upspeed:7%"
 format-connected = <label-connected>
 format-connected-prefix = "%{F#10ce4f} %{F#FFF}"
@@ -372,7 +378,7 @@ format-connected-prefix-foreground = #5b
 
 [module/wired-networkspeeddown]
 type = internal/network
-interface = enp3s0
+interface = enp0s31f6
 label-connected = "%downspeed:7%"
 format-connected = <label-connected>
 format-connected-prefix = "%{F#ce2121} %{F#FFF}"
@@ -408,7 +414,7 @@ time-alt =  %H:%M:%S
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
-label = "%{A1:exec termite -e 'khal interactive' --class CALENDAR &:} %date%   %time% %{A}"
+label = " %date%   %time%"
 
 [module/volume]
 type = internal/volume
@@ -441,8 +447,8 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/battery]
 type = internal/battery
-battery = BAT1
-adapter = ADP1
+battery = BAT0
+adapter = AC
 full-at = 98
 time-format = "(%H:%M)"
 
@@ -537,7 +543,7 @@ menu-0-1-exec = menu-open-2
 menu-0-2 = déconnexion
 menu-0-2-exec = menu-open-3
 menu-0-3 = 
-menu-0-3-exec = "light-locker-command -l"
+menu-0-3-exec = "sh ~/.config/scripts/lock"
 
 menu-1-0 = redémarrer
 menu-1-0-exec = reboot

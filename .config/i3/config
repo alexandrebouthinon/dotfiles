@@ -62,27 +62,6 @@
     # }}}
 # }}}
 
-# Hotkeys {{{
-    # Volume {{{
-        bindsym XF86AudioRaiseVolume exec --no-startup-id amixer sset Master 5%+
-        bindsym XF86AudioLowerVolume exec --no-startup-id amixer sset Master 5%-
-        bindsym XF86AudioMute exec --no-startup-id amixer -q sset Master toggle
-    # }}}
-
-    # Sreen Brightness {{{
-        bindsym XF86MonBrightnessUp exec ~/.config/scripts/bright_up.sh # increase screen brightness
-        bindsym XF86MonBrightnessDown exec ~/.config/scripts/bright_down.sh # decrease screen brightness
-    # }}}
-
-    # Touchpad {{{
-        bindsym XF86TouchpadToggle exec ~/.config/scripts/touchpad_toggle.sh # toggle touchpad
-    # }}}
-
-    # Switch Video Output {{{
-        bindsym Mod2 + Mod4 + p exec ~/.config/scripts/setup_external_monitor.sh
-    # }}}
-# }}}
-
 # Controls {{{
     # General {{{
         # Use Mouse+$mod to drag floating windows to their wanted position
@@ -210,10 +189,8 @@
 # }}}
 
 # Windows {{{
-for_window [class="GTOP"] floating enable move right 670px, move down 336px
 for_window [class="WIFI"] floating enable move right 560px, move up 336px
 for_window [class="MIXER"] floating enable move right 350px, move up 336px
-for_window [class="CALENDAR"] floating enable move right 670px, move up 336px
 # }}}
 
 # System Controls {{{
