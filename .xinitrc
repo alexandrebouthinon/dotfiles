@@ -24,6 +24,8 @@ numlockx on &
 # External storage daemon
 udiskie -2 -s &
 
+# Keyboard tic rate
+xset r rate 250 60
 # LightDM locker service
 #light-locker &
 

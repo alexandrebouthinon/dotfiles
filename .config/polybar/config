@@ -39,8 +39,8 @@ throttle-input-for = 30
 screenchange-reload = true
 
 [bar/top]
-#monitor = ${env:MONITOR}
-monitor-strict = true
+monitor = ${env:MONITOR}
+monitor-strict = false
 dpi = 72
 bottom = false
 width = 100%
@@ -75,7 +75,7 @@ font-3 = FontAwesome:pixelsize=14;2
 
 modules-left = i3 xwindow
 modules-center =
-modules-right = backlight volume wired-network wireless-network battery date powermenu
+modules-right = backlight alsa wired-network wireless-network battery date powermenu
 ;modules-right = backlight volume github pkg wlan vpncheck pptpcheck battery date powermenu
 ;modules-right = backlight volume pkg wlan vpncheck battery date powermenu
 
@@ -96,8 +96,8 @@ tray-padding = 4
 ;scroll-down = i3wm-wsprev
 
 [bar/bottom]
-#monitor = ${env:MONITOR}
-monitor-strict = true
+monitor = ${env:MONITOR}
+monitor-strict = false
 dpi = 72
 bottom = true
 width = 100%
@@ -416,8 +416,46 @@ format-underline = #0a6cf5
 
 label = " %date%   %time%"
 
-[module/volume]
-type = internal/volume
+[module/alsa]
+type = internal/alsa
+
+; Soundcard to be used
+; Usually in the format hw:# where # is the card number
+; You can find the different card numbers in `/proc/asound/cards`
+master-soundcard = default
+speaker-soundcard = default
+headphone-soundcard = default
+
+; Name of the master, speaker and headphone mixers
+; Use the following command to list available mixer controls:
+; $ amixer scontrols | sed -nr "s/.*'([[:alnum:]]+)'.*/\1/p"
+; If master, speaker or headphone-soundcard isn't the default,
+; use `amixer -c # scontrols` instead where # is the number
+; of the master, speaker or headphone soundcard respectively
+;
+; Default: Master
+master-mixer = Master
+
+; Optionally define speaker and headphone mixers
+; Default: none
+speaker-mixer = Speaker
+; Default: none
+headphone-mixer = Headphone
+
+; NOTE: This is required if headphone_mixer is defined
+; Use the following command to list available device controls
+; $ amixer controls | sed -r "/CARD/\!d; s/.*=([0-9]+).*name='([^']+)'.*/printf '%3.0f: %s\n' '\1' '\2'/e" | sort
+; You may also need to use `amixer -c # controls` as above for the mixer names
+; Default: none
+headphone-id = 9
+
+; Use volume mapping (similar to amixer -M and alsamixer), where the increase in volume is linear to the ear
+; Default: false
+mapped = true
+
+; Interval for volume increase/decrease (in percent points) (unreleased)
+; Default: 5
+interval = 5
 
 format-volume = "%{A1:pkill alsamixer ; exec termite -e alsamixer --class MIXER &:}<label-volume> <bar-volume>%{A}"
 label-volume = ""
@@ -481,7 +519,7 @@ animation-charging-framerate = 750
 
 [module/temperature]
 type = internal/temperature
-thermal-zone = 0
+thermal-zone = 4
 warn-temperature = 60
 
 format = <ramp> <label>
@@ -489,8 +527,8 @@ format-underline = #f50a4d
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
 
-label = %temperature%
-label-warn = %temperature%
+label = %temperature-c%
+label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
 ramp-0 = 

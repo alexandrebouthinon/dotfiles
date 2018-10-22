@@ -31,3 +31,6 @@ rofi.ssh-client:           ssh
 rofi.ssh-command:          {terminal} -e "{ssh-client} {host}"
 rofi.run-command:          {cmd}
 rofi.run-shell-command:    {terminal} -e {cmd}
+
+
+Xcursor.size: 24

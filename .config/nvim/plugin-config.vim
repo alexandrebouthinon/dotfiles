@@ -34,7 +34,7 @@
 "}}}
 
 " Indent Line {{{
-  let g:indentLine_char = '┆'
+  let g:indentLine_char = '->'
 " }}}
 
 " NERDCommenter {{{
@@ -124,6 +124,11 @@
   " deoplete-go settings
   let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
   let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
+
+  " deoplete rust
+  let g:deoplete#sources#rust#racer_binary='/home/alex/.cargo/bin/racer'
+  let g:deoplete#sources#rust#rust_source_path='/home/alex/.rust/rust/src'
+
 " }}}
 
 " Latex Preview {{{
@@ -131,4 +136,24 @@
   let g:livepreview_engine = 'pdflatex'
   autocmd Filetype tex setl updatetime=5
   nmap <F12> :LLPStartPreview<cr>
+" }}}
+
+" QuickFix Window {{{
+  autocmd FileType qf wincmd J
+  au FileType qf call AdjustWindowHeight(3, 10)
+  function! AdjustWindowHeight(minheight, maxheight)
+    exe max([min([line("$"), a:maxheight]), a:minheight]) . "wincmd _"
+  endfunction" }}}
+
+" Neomake {{{
+"  " When writing a buffer (no delay).
+"  call neomake#configure#automake('w')
+"  " When writing a buffer (no delay), and on normal mode changes (after 750ms).
+"  call neomake#configure#automake('nw', 750)
+"  " When reading a buffer (after 1s), and when writing (no delay).
+"  call neomake#configure#automake('rw', 1000)
+"  " Full config: when writing or reading a buffer, and on changes in insert and
+"  " normal mode (after 1s; no delay when writing).
+"  call neomake#configure#automake('nrwi', 500)
+"  let g:neomake_open_list = 2
 " }}}

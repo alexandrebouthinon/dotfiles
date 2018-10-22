@@ -37,16 +37,12 @@
   " }}}
 
   " Golang {{{
-    au BufReadPost,BufNewFile *.go :GoMetaLinter
-    au BufReadPost,BufNewFile *.go :TagbarOpen
-    au BufReadPost,BufNewFile *.go :NERDTree
-
     nmap <C-c> :GoCoverageToggle<cr>
 
     autocmd BufWrite *.go :GoTest
 
     let g:go_textobj_include_function_doc = 1
-    let g:go_fmt_command = "goimports"
+    let g:go_fmt_command = "gofmt"
 
     let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
@@ -80,4 +76,8 @@
     let g:go_highlight_methods = 1
     let g:go_highlight_structs = 1
   " }}}
+" }}}
+
+" Golang {{{
+  set completeopt-=preview
 " }}}

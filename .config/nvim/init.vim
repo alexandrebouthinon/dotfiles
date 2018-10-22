@@ -45,9 +45,7 @@
   " }}}
 
   " Colors setup {{{
-    let g:onedark_color_overrides = {
-    \ "black": {"gui": "#1D1F21", "cterm": "235", "cterm16": "0" }
-    \}
+    hi VertSplit guibg=bg guifg=bg
     let base16colorspace=256
     colorscheme onedark
   " }}}
@@ -79,9 +77,10 @@
     set splitright                  " Open vsp on right
     set pastetoggle=<F2>
     set noshowmode                  " Hide mode (lightline shows mode)
-    set expandtab                   " Spaces > tabs
     set tabstop=2                   " 2 spaces
+    set softtabstop=2
     set shiftwidth=2                " 2 2 CHAINZ
+    set expandtab                   " Spaces > tabs
     set foldmethod=marker           " Enable marker based folding
     set clipboard+=unnamedplus      " Use system clipboard
     set regexpengine=1 " Use old regexp engine
@@ -125,7 +124,7 @@
   " Fold Marker Hiding {{{
     au BufRead,BufNewfile * syn match fmrkr '"*{{{\|"*}}}' |
       \ syn cluster vimCommentGroup contains=fmrkr |
-      \ hi fmrkr term=NONE guibg=#1D1F21 guifg=#1D1F21
+      \ hi fmrkr term=NONE guibg=#282c34 guifg=#282c34
   " }}}
 " }}}
 

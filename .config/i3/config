@@ -68,7 +68,9 @@
         floating_modifier $mod
 
         # Start a terminal
-        bindsym $mod+Return exec termite -e tmux
+        bindsym $mod+Mod1+Return exec termite -e tmux
+        # Start a terminal without tmux
+        bindsym $mod+Return exec termite
 
         # kill focused window
         bindsym $mod+Shift+a kill
@@ -77,8 +79,17 @@
         bindsym $mod+d exec rofi -show drun
 
         # Lock the screen using custom script
-        bindsym $mod+Mod1+l exec light-locker-command -l
-        bindsym $mod+Mod1+Shift+l exec "light-locker-command -l ; systemctl suspend"
+        bindsym $mod+Mod1+l exec "/bin/bash /home/alex/.config/scripts/lock"
+        bindsym $mod+Mod1+Shift+l exec "/bin/bash /home/alex/.config/scripts/lock; systemctl suspend"
+
+        # Brightness
+        bindsym XF86MonBrightnessDown exec "xbacklight -dec 10"
+        bindsym XF86MonBrightnessUp exec "xbacklight -inc 10"
+
+        # Audio volume
+        bindsym XF86AudioRaiseVolume exec --no-startup-id amixer sset Master 5%+
+        bindsym XF86AudioLowerVolume exec --no-startup-id amixer sset Master 5%-
+        bindsym XF86AudioMute exec --no-startup-id amixer -q sset Master toggle
     # }}}
 
     # Navigation {{{
@@ -179,6 +190,21 @@
     # }}}
 
     # Assignations {{{
+        # Screens
+        set $left_monitor DP1-2
+        set $right_monitor DP1-3
+        set $main_monitor eDP1
+
+        workspace $tag1 output $left_monitor
+        workspace $tag2 output $left_monitor
+        workspace $tag5 output $left_monitor
+
+        workspace $tag3 output $right_monitor
+        workspace $tag4 output $right_monitor
+
+        workspace $tag6 output $main_monitor
+        workspace $tag7 output $main_monitor
+
         assign [class="Firefox"] $tag1
         assign [class="Atom"] $tag3
         assign [class="GitKraken"] $tag4

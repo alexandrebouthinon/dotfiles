@@ -9,7 +9,7 @@ alllow_bold = true
 dynamic_title = true
 urgent_on_bell = true
 clickable_url = true
-font = Monaco for Powerline 9
+font = Monaco for Powerline 10
 scrollback_lines = 10000
 search_wrap = true
 

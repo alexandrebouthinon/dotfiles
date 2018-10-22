@@ -25,12 +25,14 @@
 call plug#begin()
 
 " General {{{
-  Plug 'tpope/vim-sensible'               " Some sensible settings
-  Plug 'tpope/vim-sleuth'                 " Autodetect file spacing
-  Plug 'vim-scripts/autoswap.vim'         " Handle swap files intelligently
-  Plug 'sheerun/vim-polyglot'             " Mega language support pack
-  Plug 'editorconfig/editorconfig-vim'    " .editorconfig support
-  Plug 'Yggdroot/indentLine'              " Indent guides
+  Plug 'tpope/vim-sensible'                 " Some sensible settings
+  Plug 'tpope/vim-sleuth'                   " Autodetect file spacing
+  Plug 'vim-scripts/autoswap.vim'           " Handle swap files intelligently
+  Plug 'sheerun/vim-polyglot'               " Mega language support pack
+  Plug 'editorconfig/editorconfig-vim'      " .editorconfig support
+  Plug 'Yggdroot/indentLine'                " Indent guides
+  Plug 'JamshedVesuna/vim-markdown-preview' " Markdown preview
+  "Plug 'neomake/neomake'                    " Compile on save and linter
 " }}}
 
 " Code Format {{{
@@ -44,8 +46,8 @@ call plug#begin()
 " }}}
 
 " VCS {{{
-  Plug 'tpope/vim-fugitive'               " Git wrapper
-  Plug 'airblade/vim-gitgutter'           " Git overview and merge tool
+  Plug 'tpope/vim-fugitive'               " Git merge tool
+  Plug 'airblade/vim-gitgutter'           " Git overview
 " }}}
 
 " Snippets {{{
@@ -65,12 +67,15 @@ call plug#begin()
 
 " Languages {{{
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-  Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 " }}}
 
 " Completion {{{
   Plug 'Shougo/deoplete.nvim'
   Plug 'zchee/deoplete-go', { 'do': 'make'}
-  Plug 'poppyschmo/deoplete-latex'
+  Plug 'sebastianmarkow/deoplete-rust'
+" }}}
+
+" Note taking {{{
+  Plug 'vimwiki/vimwiki'
 " }}}
 call plug#end()

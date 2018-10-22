@@ -15,7 +15,7 @@
 
 # Environment Variables {{{
   # User Space {{{
-    export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:/usr/bin/clangd:$HOME/.config/scripts:/opt:/usr/lib/go/bin:$GOPATH/bin:$HOME/.gem/ruby/2.5.0/bin:$PATH
+    export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$HOME/.cargo/bin:/usr/bin/clangd:$HOME/.config/scripts:/opt:/usr/lib/go/bin:$GOPATH/bin:$HOME/.gem/ruby/2.5.0/bin:$PATH
     export ZSH=/home/alex/.oh-my-zsh
 
     if [ "$TERM" != "tmux-256color" ]; then
@@ -25,6 +25,7 @@
     export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
     export GOROOT=/usr/lib/go
     export GOPATH=/home/alex/.go
+    export GOBIN=/home/alex/.go/bin
   # }}}
 
 # }}}
@@ -48,7 +49,7 @@
 # User configuration {{{
   # Default Applications {{{
     export EDITOR='nvim'
-    export BROWSER='/usr/bin/firefox'
+    export BROWSER='/usr/bin/chromium'
   # }}}
 
   # Aliases {{{
@@ -57,6 +58,10 @@
     alias vim="nvim"
     alias neofetch="clear && echo && echo && neofetch --ascii_distro linux --gtk2 off --gtk3 off --gap 1"
     alias tmux='tmux -2'
+    alias la='colorls -lA --sd --gs'
+    alias ls='colorls'
+    alias lt='colorls --tree'
+    alias ltg='colorls --tree --gs'
   # }}}
 
   # Scripts {{{
@@ -69,6 +74,9 @@
     if [ -z "$DISPLAY" ] && [ -n "$XDG_VTNR" ] && [ "$XDG_VTNR" -eq 1 ]; then
       exec startx
     fi
+
+    # ColorLS autocomplete
+    source $(dirname $(gem which colorls))/tab_complete.sh
   # }}}
 
   # GPG Keys {{{
@@ -84,3 +92,12 @@
   fi
 # }}}
 # }}}
+
+# added by travis gem
+[ -f /home/alex/.travis/travis.sh ] && source /home/alex/.travis/travis.sh
+
+[ -z "$NVM_DIR" ] && export NVM_DIR="$HOME/.nvm"
+source /usr/share/nvm/nvm.sh
+source /usr/share/nvm/bash_completion
+source /usr/share/nvm/install-nvm-exec
+

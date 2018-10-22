@@ -5,16 +5,17 @@ set-option -g prefix M-w
 set -sg escape-time 0
 
 # Color conf
-set -g default-terminal "tmux-256color"
+set -g default-terminal "screen-256color"
+#set -g default-terminal "tmux-256color"
 
 # Mouse enable
 set -g mouse on
 
 # Switch panes using Alt and Vim shortcuts without prefix
-bind -n M-Left select-pane -L
-bind -n M-Right select-pane -R
-bind -n M-Up select-pane -U
-bind -n M-Down select-pane -D
+bind M-h select-pane -L
+bind M-l select-pane -R
+bind M-k select-pane -U
+bind M-j select-pane -D
 
 # split panes using | and -
 bind / split-window -h
