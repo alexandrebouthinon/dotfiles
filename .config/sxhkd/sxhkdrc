@@ -26,15 +26,15 @@ super + Return
 	kitty
 
 # rofi: windows
-super + @space
+super + shift + w
 	rofi -show window
 
 # rofi: launcher
-super + d
+super + shift + d
 	rofi -show drun
 
 # rofi: ssh
-super + F1
+super + shift + s
 	rofi -show ssh
 
 #==============================================================================
@@ -56,7 +56,7 @@ super + alt + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill window
-super + {_,shift + }w
+super + {_,shift + }q
 	bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
