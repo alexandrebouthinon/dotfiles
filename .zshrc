@@ -10,7 +10,6 @@
 # Description: ZSH configuration file
 # Author: Alexandre Bouthinon
 #==============================================================================
-# vim:fileencoding=utf-8:ft=conf:foldmethod=marker
 
 # Environment variables {{{
 export PATH=$HOME/.local/bin:/usr/local/bin:$PATH
@@ -85,3 +84,9 @@ ZSH_THEME="spaceship"
 # }}}
 
 source $ZSH/oh-my-zsh.sh
+
+# Start X server on TTY succeeded login
+if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+  exec startx
+fi
+# vim:fileencoding=utf-8:ft=sh:foldmethod=marker
