@@ -12,7 +12,7 @@
 #==============================================================================
 
 # Environment variables {{{
-export PATH=$HOME/.local/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.local/bin:$HOME/.tfenv/bin:/usr/local/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR=vim
 
@@ -32,7 +32,15 @@ export EDITOR=vim
 # Aliases {{{
 alias zshconfig="vim $HOME/.zshrc"
 alias ncmpcpp="ncmpcpp -b $HOME/.config/ncmpcpp/bindings"
+alias ssh="TERM=xterm ssh"
+
+# Dotfiles management aliases
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
+alias dotstatus="dotfiles status"
+alias dotdiff="dotfiles diff"
+alias dotadd="dotfiles add"
+alias dotcommit="dotfiles commit"
+alias dotpush="dotfiles push"
 # }}}
 
 # Theme {{{
@@ -89,4 +97,8 @@ source $ZSH/oh-my-zsh.sh
 if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
   exec startx
 fi
+
+# Run pfetch on each new zsh session
+pfetch
+
 # vim:fileencoding=utf-8:ft=sh:foldmethod=marker
