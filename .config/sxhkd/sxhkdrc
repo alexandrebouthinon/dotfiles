@@ -31,11 +31,15 @@ super + shift + w
 
 # rofi: launcher
 super + shift + d
-	rofi -show drun
+	rofi -show drun -show-icons -drun-icon-theme Moka
 
 # rofi: ssh
 super + shift + s
 	rofi -show ssh
+
+# rofi: command
+super + shift + x
+	rofi -show run
 
 #==============================================================================
 # Media keys
