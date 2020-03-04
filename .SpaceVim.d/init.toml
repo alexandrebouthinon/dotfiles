@@ -58,6 +58,10 @@
 [[layers]]
   name = "test"
 
+# NOTE: Uncomment this when https://github.com/vim-ctrlspace/vim-ctrlspace/pull/261 has been merged
+#[[layers]]
+#  name = "ctrlspace"
+
 #=============================================================================
 # Programming languages support layers
 #=============================================================================
