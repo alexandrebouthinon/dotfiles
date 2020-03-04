@@ -54,7 +54,6 @@ ZSH_THEME="spaceship"
       dir           # Current directory section
       host          # Hostname section
       git           # Git section (git_branch + git_status)
-      hg            # Mercurial section (hg_branch  + hg_status)
       package       # Package version
       node          # Node.js section
       golang        # Go section
@@ -62,10 +61,8 @@ ZSH_THEME="spaceship"
       rust          # Rust section
       docker        # Docker section
       aws           # Amazon Web Services section
-      venv          # virtualenv section
       terraform     # Terraform workspace section
       line_sep      # Line break
-      vi_mode       # Vi-mode indicator
       char          # Prompt character
   )
   SPACESHIP_RPROMPT_ORDER=(
@@ -89,6 +86,7 @@ ZSH_THEME="spaceship"
     git                       # Git prompt info
     docker                    # Docker and Docker Compose autocomplete
     zsh-syntax-highlighting   # Fish-like syntax highlight
+    kubectl helm              # Kubernetes tools completion and aliases
   )
   # }}}
 # }}}
