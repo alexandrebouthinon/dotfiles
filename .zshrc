@@ -33,6 +33,8 @@ export EDITOR=vim
 alias zshconfig="vim $HOME/.zshrc"
 alias ncmpcpp="ncmpcpp -b $HOME/.config/ncmpcpp/bindings"
 alias ssh="TERM=xterm ssh"
+alias vim="nvim"
+alias vi="nvim"
 
 # Dotfiles management aliases
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
