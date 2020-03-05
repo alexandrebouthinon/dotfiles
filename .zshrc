@@ -98,7 +98,4 @@ if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]
   exec startx
 fi
 
-# Run pfetch on each new zsh session
-pfetch
-
 # vim:fileencoding=utf-8:ft=sh:foldmethod=marker
